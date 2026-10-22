@@ -16,5 +16,6 @@
 
     <!-- Player -->
     <string name="player_error">No se pudo reproducir el canal</string>
+    <string name="pluto_title">Pluto TV</string>
     <string name="loading">Cargando…</string>
 </resources>

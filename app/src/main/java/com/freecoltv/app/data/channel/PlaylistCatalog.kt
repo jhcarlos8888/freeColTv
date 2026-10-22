@@ -30,13 +30,6 @@ object PlaylistCatalog {
         isCountry = false,
     )
 
-    val plutoProxy = PlaylistOption(
-        id = "pluto-proxy",
-        label = "Pluto TV (proxy local - 195 canales)",
-        url = "http://192.168.20.4:3000/playlist.m3u8",
-        isCountry = false,
-    )
-
     /** Categorías de contenido disponibles según categories.json. */
     val categories = listOf(
         "animation", "classic", "comedy", "cooking", "documentary",
@@ -55,7 +48,6 @@ object PlaylistCatalog {
         return when (id) {
             in countries.map { it.id } -> countries.find { it.id == id }
             global.id -> global
-            plutoProxy.id -> plutoProxy
             else -> null
         }
     }

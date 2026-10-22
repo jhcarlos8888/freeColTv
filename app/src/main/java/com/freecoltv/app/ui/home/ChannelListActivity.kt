@@ -16,6 +16,7 @@ import com.freecoltv.app.data.model.Channel
 import com.freecoltv.app.databinding.ActivityChannelListBinding
 import com.freecoltv.app.ui.movies.MovieListActivity
 import com.freecoltv.app.ui.player.PlayerActivity
+import com.freecoltv.app.ui.pluto.PlutoActivity
 import kotlinx.coroutines.launch
 
 class ChannelListActivity : AppCompatActivity() {
@@ -42,7 +43,7 @@ class ChannelListActivity : AppCompatActivity() {
     }
 
     private fun setupCountrySpinner() {
-        val allOptions = PlaylistCatalog.countries + PlaylistCatalog.global + PlaylistCatalog.plutoProxy
+        val allOptions = PlaylistCatalog.countries + PlaylistCatalog.global
         val options = allOptions.map { it.label }
         val spinnerAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, options)
         binding.spinnerCountry.adapter = spinnerAdapter
@@ -96,7 +97,7 @@ class ChannelListActivity : AppCompatActivity() {
                 when (tab?.position) {
                     0 -> loadChannels()
                     1 -> startActivity(Intent(this@ChannelListActivity, MovieListActivity::class.java))
-                    2 -> loadChannels()
+                    2 -> startActivity(Intent(this@ChannelListActivity, PlutoActivity::class.java))
                 }
             }
             override fun onTabUnselected(tab: com.google.android.material.tabs.TabLayout.Tab?) {}

@@ -50,6 +50,11 @@
             android:exported="false"
             android:label="Películas gratuitas" />
 
+        <activity
+            android:name=".ui.pluto.PlutoActivity"
+            android:theme="@style/Theme.FreeColTv"
+            android:label="Pluto TV" />
+
     </application>
 
 </manifest>

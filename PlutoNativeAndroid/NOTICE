@@ -1,0 +1,5 @@
+Pluto Native Android is an independent experimental Android implementation, not an official Pluto TV / Paramount application and not affiliated with Pluto TV or Paramount.
+
+It is informed by the public source project https://github.com/ps5-payload-dev/plutotv. The reference project identifies itself as GPL-3.0-or-later. This distribution is therefore provided under GPL-3.0-or-later; see LICENSE.
+
+The Pluto TV endpoints used here are undocumented internal endpoints, not an official public developer API. Respect the service's terms and content rights.
