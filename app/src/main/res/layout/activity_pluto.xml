@@ -41,6 +41,14 @@
         app:tabSelectedTextColor="@color/freecoltv_rose"
         app:tabMode="fixed" />
 
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupPluto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        app:singleSelection="false" />
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

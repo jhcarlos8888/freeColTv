@@ -101,13 +101,18 @@ class PlutoRepository(context: Context) {
 
             // A title can occur in many editorial categories; only keep its first appearance.
             val unique = LinkedHashMap<String, JSONObject>()
+            val itemCategories = mutableMapOf<String, MutableList<String>>()
             for (i in 0 until categories.length()) {
                 val category = categories.optJSONObject(i) ?: continue
+                val categoryName = category.optText("name").ifBlank { category.optText("title") }.ifBlank { "Otros" }
                 val items = category.optJSONArray("items") ?: continue
                 for (j in 0 until items.length()) {
                     val item = items.optJSONObject(j) ?: continue
                     val id = item.optText("_id").ifBlank { item.optText("id") }
-                    if (id.isNotBlank()) unique.putIfAbsent(id, item)
+                    if (id.isNotBlank()) {
+                        unique.putIfAbsent(id, item)
+                        itemCategories.getOrPut(id) { mutableListOf() }.add(categoryName)
+                    }
                 }
             }
 
@@ -135,7 +140,8 @@ class PlutoRepository(context: Context) {
                     posterUrl = pickImage(item),
                     durationMillis = item.optLong("duration", 0L).coerceAtLeast(0L),
                     rating = item.optText("rating"),
-                    originalPlaybackUrl = extractPlaybackUrl(item)
+                    originalPlaybackUrl = extractPlaybackUrl(item),
+                    categories = itemCategories[id]?.distinct() ?: emptyList()
                 )
             }.distinctBy { it.id }.sortedWith(compareBy<PlutoMediaItem>({ it.genre.lowercase() }, { it.name.lowercase() }) )
 

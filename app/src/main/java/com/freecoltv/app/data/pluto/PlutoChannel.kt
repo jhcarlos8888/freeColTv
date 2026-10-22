@@ -25,7 +25,8 @@ data class PlutoMediaItem(
     val rating: String = "",
     val originalPlaybackUrl: String = "",
     val seasonNumber: Int? = null,
-    val episodeNumber: Int? = null
+    val episodeNumber: Int? = null,
+    val categories: List<String> = emptyList()
 )
 
 data class PlutoSeason(

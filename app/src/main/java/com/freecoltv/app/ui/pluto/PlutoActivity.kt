@@ -15,6 +15,7 @@ import com.freecoltv.app.data.pluto.PlutoMediaItem
 import com.freecoltv.app.data.pluto.PlutoMediaKind
 import com.freecoltv.app.data.pluto.PlutoRepository
 import com.freecoltv.app.databinding.ActivityPlutoBinding
+import com.google.android.material.chip.Chip
 import com.freecoltv.app.ui.player.PlayerActivity
 
 class PlutoActivity : AppCompatActivity() {
@@ -23,6 +24,11 @@ class PlutoActivity : AppCompatActivity() {
     private lateinit var repo: PlutoRepository
     private val adapter = PlutoCategoryAdapter { item -> openPlayer(item) }
     private var currentTab = 0 // 0=TV, 1=Peliculas, 2=Series
+    private var currentChannels: List<PlutoChannel> = emptyList()
+    private var currentMovies: List<PlutoMediaItem> = emptyList()
+    private var currentSeries: List<PlutoMediaItem> = emptyList()
+    private var selectedCategory: String? = null
+    private var currentCategories: List<String> = emptyList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,25 +58,38 @@ class PlutoActivity : AppCompatActivity() {
     }
 
     private fun loadCurrentTab() {
+        selectedCategory = null
         setLoading(true)
         lifecycleScope.launch {
             try {
                 when (currentTab) {
                     0 -> {
                         val channels = repo.fetchLiveChannels()
+                        currentChannels = channels
                         adapter.submit(channels)
+                        val channelCategories = channels.map { it.category }.distinct()
+                        currentCategories = channelCategories
+                        updateChips(channelCategories)
                         binding.empty.visibility = if (channels.isEmpty()) View.VISIBLE else View.GONE
                     }
                     1 -> {
                         val vod = repo.fetchVodCatalog()
                         val movies = vod.filter { it.kind == PlutoMediaKind.MOVIE }
+                        currentMovies = movies
                         adapter.submit(movies)
+                        val movieCategories = movies.flatMap { it.categories }.distinct().ifEmpty { movies.map { it.genre }.distinct() }
+                        currentCategories = movieCategories
+                        updateChips(movieCategories)
                         binding.empty.visibility = if (movies.isEmpty()) View.VISIBLE else View.GONE
                     }
                     2 -> {
                         val vod = repo.fetchVodCatalog()
                         val series = vod.filter { it.kind == PlutoMediaKind.SERIES }
+                        currentSeries = series
                         adapter.submit(series)
+                        val seriesCategories = series.flatMap { it.categories }.distinct().ifEmpty { series.map { it.genre }.distinct() }
+                        currentCategories = seriesCategories
+                        updateChips(seriesCategories)
                         binding.empty.visibility = if (series.isEmpty()) View.VISIBLE else View.GONE
                     }
                 }
@@ -82,6 +101,50 @@ class PlutoActivity : AppCompatActivity() {
                 setLoading(false)
             }
         }
+    }
+
+    private fun updateChips(categories: List<String>) {
+        binding.chipGroupPluto.removeAllViews()
+        val allChip = Chip(this).apply {
+            text = "Todos"
+            isCheckable = true
+            isChecked = selectedCategory == null
+            setOnClickListener {
+                selectedCategory = null
+                loadCurrentTab()
+            }
+        }
+        binding.chipGroupPluto.addView(allChip)
+        for (cat in categories) {
+            val chip = Chip(this).apply {
+                text = cat
+                isCheckable = true
+                isChecked = selectedCategory == cat
+                setOnClickListener {
+                    selectedCategory = if (selectedCategory == cat) null else cat
+                    filterItems()
+                }
+            }
+            binding.chipGroupPluto.addView(chip)
+        }
+    }
+
+    private fun filterItems() {
+        when (currentTab) {
+            0 -> {
+                val filtered = if (selectedCategory == null) currentChannels else currentChannels.filter { it.category == selectedCategory }
+                adapter.submit(filtered)
+            }
+            1 -> {
+                val filtered = if (selectedCategory == null) currentMovies else currentMovies.filter { selectedCategory in it.categories || it.genre == selectedCategory }
+                adapter.submit(filtered)
+            }
+            2 -> {
+                val filtered = if (selectedCategory == null) currentSeries else currentSeries.filter { selectedCategory in it.categories || it.genre == selectedCategory }
+                adapter.submit(filtered)
+            }
+        }
+        updateChips(currentCategories)
     }
 
     private fun setLoading(loading: Boolean) {

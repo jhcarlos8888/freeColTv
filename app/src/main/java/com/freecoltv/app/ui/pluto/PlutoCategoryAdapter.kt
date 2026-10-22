@@ -46,7 +46,7 @@ class PlutoCategoryAdapter(private val onClick: (Any) -> Unit) :
             }
             val itemCategory = when (item) {
                 is PlutoChannel -> item.category
-                is PlutoMediaItem -> item.genre
+                is PlutoMediaItem -> item.categories.takeIf { it.isNotEmpty() }?.joinToString(", ") ?: item.genre
                 else -> ""
             }
             val itemImageUrl = when (item) {
