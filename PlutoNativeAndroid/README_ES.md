@@ -1,87 +1,95 @@
-# Pluto Native Android — Kotlin + Media3
+# Pluto Native Android — Kotlin + Compose + Media3
 
-Proyecto independiente de Android Studio (Kotlin + Jetpack Compose) que consulta el catálogo de canales en vivo de Pluto TV mediante endpoints internos no oficiales y prepara la reproducción HLS con AndroidX Media3/ExoPlayer. **No contiene un catálogo ficticio**: las tarjetas se generan a partir de la respuesta real del endpoint de canales.
+Proyecto experimental de Android Studio que consulta las secciones de **TV en vivo, películas y series** de Pluto TV mediante sus endpoints web no documentados y construye URLs HLS asociadas a una sesión anónima. No implementa login de usuario de Pluto TV.
 
-## Qué incluye
+> **Estado honesto:** el proyecto incluye código para los tres catálogos y para navegar temporadas/episodios. No pude ejecutar una compilación Gradle completa en el entorno donde se generó este ZIP porque no había acceso a `services.gradle.org` ni Android SDK. Tampoco se ha probado una reproducción real en un teléfono. Compila y prueba en tu Android Studio y confirma el streaming con un canal y un título concretos.
 
-- Pantalla nativa con diseño oscuro, búsqueda, categorías y logotipos de los canales recibidos por la API.
-- Creación y caché en memoria de la sesión de Pluto; refresco previo a la expiración.
-- Lectura del catálogo en vivo con `Authorization: Bearer …`.
-- Construcción de la URL de reproducción utilizando el host y los parámetros de sesión vigentes, en vez de reutilizar el host/query posiblemente obsoletos que lleguen en los datos del catálogo.
-- Reproductor HLS con ExoPlayer/Media3, controles y diagnóstico básico.
-- Tests unitarios de la construcción de la URL de reproducción.
-- Código que evita imprimir tokens o URL de reproducción firmadas en Logcat.
+## Funcionalidades
 
-## Limitaciones importantes
+- **TV en vivo:** consulta `api.pluto.tv/v2/channels`, filtra canales ocultos, agrupa por categoría y muestra logotipos y descripción.
+- **Películas:** consulta `api.pluto.tv/v3/vod/categories?includeItems=true`, deduplica títulos repetidos entre categorías y muestra títulos reconocidos como películas.
+- **Series:** lista series, consulta `api.pluto.tv/v3/vod/series/{id}/seasons?includeItems=true` y presenta temporadas y episodios.
+- **Sesión automática sin cuenta:** solicita una sesión a `boot.pluto.tv/v4/start`; conserva un identificador de dispositivo local y renueva la sesión cuando se acerca su vencimiento.
+- **Resolución HLS:** reconstruye la ruta con el host y los parámetros que devolvió la sesión vigente, en vez de confiar ciegamente en hosts y queries antiguos almacenados en la entrada del catálogo.
+- **Reproductor:** AndroidX Media3 / ExoPlayer con controles y mensajes de error.
+- **Búsqueda, categorías y refresco** en la interfaz nativa Jetpack Compose.
 
-1. Pluto TV **no documenta estos endpoints como una API pública para terceros**. Pueden cambiar, devolver HTTP 401/403/4xx, variar por país o dejar de estar disponibles sin aviso. El código no puede garantizar que un canal o película concreta se reproduzca.
-2. Este primer paquete implementa **TV en vivo**. No incluye todavía una integración VOD de películas/series.
-3. La app anuncia capacidad Widevine L3 en la solicitud de sesión y **no intenta desactivar DRM, quitar anuncios ni convertir una emisión protegida en una emisión sin protección**. Si Pluto entrega una emisión que necesita una configuración de DRM/licencia no disponible para esta integración, el reproductor informará del error.
-4. El funcionamiento del catálogo y el streaming son cosas distintas: recibir JSON o un manifiesto HLS con HTTP 200 no demuestra que se pueda ver contenido. Verifica un canal real en un dispositivo Android.
-5. Antes de distribuir o publicar la app, revisa los términos de Pluto TV y solicita autorización si corresponde. Este proyecto es experimental y no está afiliado con Pluto TV ni Paramount.
+## Qué no garantiza
+
+1. Pluto TV no publica estos endpoints como una API abierta y estable para desarrolladores externos. Puede cambiar el formato, bloquear clientes, limitar catálogo por región o devolver HTTP 4xx.
+2. **HTTP 200 no prueba que el stream contenga el programa esperado.** Debe comprobarse reproducción real con audio y vídeo. Si Pluto entrega un mensaje de dispositivo no compatible, la aplicación no lo oculta ni intenta eludirlo.
+3. Se solicita entrega con anuncios y se declara capacidad Widevine L3. El código no elimina anuncios, no quita DRM y no solicita una versión sin protección. Los títulos protegidos pueden necesitar mecanismos/licencias que esta integración no tiene.
+4. La detección de películas usa los tipos descritos por la respuesta regional. Si el proveedor omite tipos o cambia el esquema, la categoría puede quedar incompleta y requerir ajustes.
+5. Antes de distribuir la aplicación, revisa los términos del proveedor y obtén autorización si corresponde. Este proyecto no es oficial ni está afiliado con Pluto TV/Paramount.
 
 ## Requisitos
 
-- Android Studio con JDK 17.
-- Android SDK Platform 36 instalado desde SDK Manager.
-- Conexión a internet para que Gradle descargue las dependencias.
-- Android 7.0/API 24 o superior recomendado para esta configuración.
+- Android Studio actualizado.
+- JDK 17.
+- Android SDK Platform 36.
+- Acceso a Internet para descargar dependencias Gradle.
+- Android 7.0 / API 24 o superior.
 
 ## Abrir y compilar
 
 1. Descomprime `PlutoNativeAndroid.zip`.
-2. Abre la carpeta `PlutoNativeAndroid` desde Android Studio (**Open**, selecciona la carpeta que contiene `settings.gradle.kts`).
-3. Acepta instalar Android SDK Platform 36 si el IDE lo solicita y pulsa **Sync Project with Gradle Files**.
-4. Ejecuta `:app:assembleDebug` o presiona Run para instalar en un dispositivo/emulador.
+2. En Android Studio, usa **Open** y selecciona la carpeta que contiene `settings.gradle.kts`.
+3. Deja que Gradle sincronice y que Android Studio instale la plataforma SDK requerida.
+4. Ejecuta la app en un dispositivo o emulador con Internet.
 
-Desde Linux, en un equipo con JDK 17, Android SDK y conexión a internet:
+En Linux, desde la carpeta descomprimida:
 
 ```bash
 chmod +x gradlew
-./gradlew --version
 ./gradlew test
 ./gradlew :app:assembleDebug
-# opcional, si hay un dispositivo conectado por ADB:
+# Solo con un dispositivo conectado por ADB:
 ./gradlew :app:installDebug
 ```
 
-El script `gradlew` de este paquete es un pequeño bootstrap incluido para descargar la distribución oficial Gradle 8.13 al caché local. Si tu entorno corporativo bloquea `services.gradle.org`, configura un mirror aprobado o usa Android Studio/una instalación de Gradle ya preparada.
+Si el wrapper no puede descargar Gradle por restricciones de red, abre el proyecto desde Android Studio en una máquina con conexión o usa una distribución aprobada por tu entorno.
 
 ## Uso
 
-Al abrir la app, pulsa actualizar si no carga el catálogo. Selecciona un canal para solicitar una URL de reproducción de la sesión actual y abrir el reproductor.
+- Abre la app y selecciona `TV en vivo`, `Películas` o `Series`.
+- En `Series`, abre el título y después una temporada para ver episodios.
+- Selecciona un canal, película o episodio para preparar el stream y abrir el reproductor.
+- Si falla, guarda el código de error mostrado. **No compartas** URLs completas de reproducción, JWT, token de sesión, identificadores de sesión ni cabeceras de autorización.
 
-Si falla, copia **solo** el código/mensaje del error, no tokens, cabeceras `Authorization`, JWT ni la URL completa del stream. Los errores comunes:
+Errores frecuentes:
 
-- **HTTP 401/403**: sesión rechazada, región o endpoint cambió.
-- **Lista vacía**: respuesta del endpoint distinta de la esperada o catálogo no disponible para la sesión.
-- **Error de playback/HTTP en Media3**: manifiesto/segmentos no accesibles, URL expirada, restricción regional o formato/DRM no compatible.
-- **Aparece un aviso de dispositivo no compatible**: Pluto entrega un vídeo de aviso en lugar del programa; no es un fallo del grid Android.
+- `HTTP 401/403`: sesión, región o endpoint rechazado.
+- Catálogo vacío: formato de respuesta cambiado o contenido no disponible para esa región.
+- HTTP 200 pero vídeo de aviso: Pluto ha devuelto un flujo de aviso en vez del contenido seleccionado.
+- Error de ExoPlayer/Media3: URL o segmento no accesible, formato/codec no compatible, sesión vencida o DRM que requiere licencia/configuración no integrada.
 
 ## Arquitectura
 
 ```text
-MainActivity (Compose)
+MainActivity (Jetpack Compose)
   └─ PlutoRepository
-      ├─ boot.pluto.tv/v4/start (sesión)
-      ├─ api.pluto.tv/v2/channels (catálogo)
-      └─ URL HLS asociada a la sesión vigente
+      ├─ boot.pluto.tv/v4/start (sesión anónima)
+      ├─ api.pluto.tv/v2/channels (TV en vivo)
+      ├─ api.pluto.tv/v3/vod/categories (películas/series/categorías)
+      ├─ api.pluto.tv/v3/vod/series/{id}/seasons (temporadas y episodios)
+      └─ StreamUrlBuilder (URL HLS con sesión vigente)
            └─ PlayerActivity (Media3 / ExoPlayer)
 ```
 
-## Versiones
+## Versiones configuradas
 
 - Android Gradle Plugin: 8.13.2
 - Gradle: 8.13
 - Kotlin: 2.2.20
 - Compose BOM: 2026.09.00
 - Media3: 1.11.1
+- Coil Compose: 3.6.3
 
-Referencias oficiales de dependencias:
-- https://developer.android.com/jetpack/androidx/releases/media3
-- https://developer.android.com/develop/ui/compose/bom
-- https://developer.android.com/jetpack/androidx/releases/activity
+## Referencias
 
-Proyecto de referencia: https://github.com/ps5-payload-dev/plutotv
+- Proyecto de referencia de la UI: https://github.com/ps5-payload-dev/plutotv
+- Media3 HLS: https://developer.android.com/media/media3/exoplayer/hls
+- Media3 releases: https://developer.android.com/jetpack/androidx/releases/media3
+- Compose BOM: https://developer.android.com/develop/ui/compose/bom
 
-Licencia de esta adaptación: GPL-3.0-or-later; consulte `LICENSE`.
+Esta adaptación es código experimental. Distribución bajo GPL-3.0-or-later; consulte `LICENSE`.

@@ -8,15 +8,16 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.freecoltv.app.R
 import com.freecoltv.app.data.pluto.PlutoChannel
+import com.freecoltv.app.data.pluto.PlutoMediaItem
 
-class PlutoCategoryAdapter(private val onClick: (PlutoChannel) -> Unit) :
+class PlutoCategoryAdapter(private val onClick: (Any) -> Unit) :
     RecyclerView.Adapter<PlutoCategoryAdapter.ViewHolder>() {
 
-    private val items = mutableListOf<PlutoChannel>()
+    private val items = mutableListOf<Any>()
 
-    fun submit(channels: List<PlutoChannel>) {
+    fun submit(list: List<Any>) {
         items.clear()
-        items.addAll(channels)
+        items.addAll(list)
         notifyDataSetChanged()
     }
 
@@ -37,16 +38,36 @@ class PlutoCategoryAdapter(private val onClick: (PlutoChannel) -> Unit) :
         private val category = view.findViewById<TextView>(R.id.plutoCategory)
         private val number = view.findViewById<TextView>(R.id.plutoNumber)
 
-        fun bind(channel: PlutoChannel) {
-            name.text = channel.name
-            category.text = channel.category
-            number.text = "#${channel.number}"
-            if (!channel.logoUrl.isNullOrEmpty()) {
-                logo.load(channel.logoUrl) { crossfade(true) }
+        fun bind(item: Any) {
+            val itemName = when (item) {
+                is PlutoChannel -> item.name
+                is PlutoMediaItem -> item.name
+                else -> "Sin nombre"
+            }
+            val itemCategory = when (item) {
+                is PlutoChannel -> item.category
+                is PlutoMediaItem -> item.genre
+                else -> ""
+            }
+            val itemImageUrl = when (item) {
+                is PlutoChannel -> item.logoUrl
+                is PlutoMediaItem -> item.posterUrl
+                else -> null
+            }
+            val itemNumber = when (item) {
+                is PlutoChannel -> "#${item.number}"
+                is PlutoMediaItem -> if (item.kind.name == "EPISODE") "EP. ${item.episodeNumber}" else itemName.take(10)
+                else -> ""
+            }
+            name.text = itemName
+            category.text = itemCategory
+            number.text = itemNumber
+            if (!itemImageUrl.isNullOrEmpty()) {
+                logo.load(itemImageUrl) { crossfade(true) }
             } else {
                 logo.setImageDrawable(null)
             }
-            itemView.setOnClickListener { onClick(channel) }
+            itemView.setOnClickListener { onClick(item) }
         }
     }
 }

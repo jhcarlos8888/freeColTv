@@ -6,22 +6,44 @@ import org.junit.Test
 
 class StreamUrlBuilderTest {
     @Test
-    fun normalisesOldVersionAndDropsStaleQuery() {
+    fun normalisesOldVersionAndDropsStaleQueryForChannel() {
         val path = StreamUrlBuilder.normalisePath(
             "https://old-stitcher.example/v1/stitch/hls/channel/channel-123/master.m3u8?jwt=stale",
-            "channel-123"
+            "channel-123",
+            StreamUrlBuilder.StreamKind.CHANNEL
         )
         assertEquals("/v2/stitch/hls/channel/channel-123/master.m3u8", path)
+    }
+
+    @Test
+    fun normalisesEpisodePathForVod() {
+        val path = StreamUrlBuilder.normalisePath(
+            "https://old-stitcher.example/v1/stitch/hls/episode/movie-123/master.m3u8?jwt=stale",
+            "movie-123",
+            StreamUrlBuilder.StreamKind.EPISODE
+        )
+        assertEquals("/v2/stitch/hls/episode/movie-123/master.m3u8", path)
+    }
+
+    @Test
+    fun buildsFallbackEpisodePathWhenCatalogHasNoStitchPath() {
+        val path = StreamUrlBuilder.normalisePath(
+            "",
+            "episode-123",
+            StreamUrlBuilder.StreamKind.EPISODE
+        )
+        assertEquals("/v2/stitch/hls/episode/episode-123/master.m3u8", path)
     }
 
     @Test
     fun usesSessionStitcherAndCurrentToken() {
         val url = StreamUrlBuilder.build(
             originalUrl = "https://old.example/v1/stitch/hls/channel/channel-1/master.m3u8?jwt=old",
-            channelId = "channel-1",
+            contentId = "channel-1",
             stitcherBaseUrl = "https://current.example/",
             stitcherParams = "appName=web&deviceModel=web",
-            sessionToken = "token-value"
+            sessionToken = "token-value",
+            streamKind = StreamUrlBuilder.StreamKind.CHANNEL
         )
         assertTrue(url.startsWith("https://current.example/v2/stitch/hls/channel/channel-1/master.m3u8?"))
         assertTrue(url.contains("jwt=token-value"))
