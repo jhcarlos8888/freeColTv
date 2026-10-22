@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">freeCol TV</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_username">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Entrar</string>
+    <string name="login_incorrect">Usuario o contraseña incorrectos</string>
+    <string name="login_empty">Rellena usuario y contraseña</string>
+
+    <!-- Canales -->
+    <string name="channels_title">Canales en vivo</string>
+    <string name="channels_empty">No hay canales disponibles</string>
+    <string name="logout">Salir</string>
+
+    <!-- Player -->
+    <string name="player_error">No se pudo reproducir el canal</string>
+    <string name="loading">Cargando…</string>
+</resources>

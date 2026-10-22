@@ -1,0 +1,115 @@
+{
+  "log": "mediciones/post_renombrado.log",
+  "errores_contados": 19567,
+  "resumen_javac": 19567,
+  "familias": {
+    "cannot_find_symbol": 13256,
+    "ANIDADO_DEX": 9180,
+    "otro": 2704,
+    "tipos": 1365,
+    "override": 1320,
+    "sobrecarga": 569,
+    "inferencia": 353,
+    "SOMBRA_sin_tapadora": 132,
+    "SOMBRA": 84
+  },
+  "sombra_clases_distintas": 24,
+  "sombra_por_clase": [
+    {
+      "clase": "androidx.appcompat.widget::j1",
+      "errores": 10
+    },
+    {
+      "clase": "androidx.appcompat.widget::m",
+      "errores": 10
+    },
+    {
+      "clase": "a6::o",
+      "errores": 8
+    },
+    {
+      "clase": "n::q",
+      "errores": 7
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns::q",
+      "errores": 4
+    },
+    {
+      "clase": "androidx.appcompat.app::m",
+      "errores": 4
+    },
+    {
+      "clase": "androidx.core.view::q",
+      "errores": 4
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns::t",
+      "errores": 4
+    },
+    {
+      "clase": "com.google.android.gms.common.api.internal::t",
+      "errores": 3
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns.b::d",
+      "errores": 3
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns::n",
+      "errores": 3
+    },
+    {
+      "clase": "com.google.android.material.textfield::f",
+      "errores": 3
+    },
+    {
+      "clase": "com.google.android.material.textfield::g",
+      "errores": 3
+    },
+    {
+      "clase": "com.google.android.material.textfield::h",
+      "errores": 3
+    },
+    {
+      "clase": "a6::m",
+      "errores": 2
+    },
+    {
+      "clase": "com.google.android.gms.common.api.internal::o",
+      "errores": 2
+    },
+    {
+      "clase": "com.google.android.gms.common.api.internal::n",
+      "errores": 2
+    },
+    {
+      "clase": "ha::z0",
+      "errores": 2
+    },
+    {
+      "clase": "androidx.appcompat.view.menu::l",
+      "errores": 2
+    },
+    {
+      "clase": "com.google.android.gms.common.api.internal::v",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.fragment.app::v",
+      "errores": 1
+    },
+    {
+      "clase": "a6::w",
+      "errores": 1
+    },
+    {
+      "clase": "com.google.firebase.iid::q",
+      "errores": 1
+    },
+    {
+      "clase": "l4::v",
+      "errores": 1
+    }
+  ]
+}

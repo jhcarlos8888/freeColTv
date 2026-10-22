@@ -1,0 +1,122 @@
+[
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 67,
+  "nuevo": "c___",
+  "motivo": "c"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 67,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 67,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 77,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 78,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 90,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 91,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 105,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 108,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 112,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 114,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 116,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 132,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "androidx/fragment/app/d_.java",
+  "linea": 137,
+  "nuevo": "d_",
+  "motivo": "d"
+ },
+ {
+  "f": "com/alibaba/sdk/android/httpdns/d__.java",
+  "linea": 22,
+  "nuevo": "d__",
+  "motivo": "d"
+ },
+ {
+  "f": "com/alibaba/sdk/android/httpdns/d__.java",
+  "linea": 26,
+  "nuevo": "d__",
+  "motivo": "d"
+ },
+ {
+  "f": "com/google/android/gms/measurement/internal/m4__.java",
+  "linea": 26,
+  "nuevo": "o4_",
+  "motivo": "o4"
+ },
+ {
+  "f": "com/google/android/gms/measurement/internal/m4__.java",
+  "linea": 40,
+  "nuevo": "o4_",
+  "motivo": "o4"
+ },
+ {
+  "f": "com/uc/crashsdk/e.java",
+  "linea": 4815,
+  "nuevo": "g____",
+  "motivo": "g"
+ },
+ {
+  "f": "com/uc/crashsdk/e.java",
+  "linea": 4819,
+  "nuevo": "g____",
+  "motivo": "g"
+ }
+]

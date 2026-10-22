@@ -1,0 +1,515 @@
+{
+  "log": "mediciones/baseline_raw_javac.log",
+  "errores_contados": 21535,
+  "resumen_javac": 21535,
+  "familias": {
+    "cannot_find_symbol": 15888,
+    "ANIDADO_DEX": 10938,
+    "otro": 2701,
+    "SOMBRA": 2193,
+    "tipos": 1187,
+    "override": 838,
+    "sobrecarga": 568,
+    "inferencia": 353,
+    "SOMBRA_sin_tapadora": 74
+  },
+  "sombra_clases_distintas": 124,
+  "sombra_por_clase": [
+    {
+      "clase": "com.google.android.gms.measurement.internal::l4",
+      "errores": 391
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::b5",
+      "errores": 219
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::m4",
+      "errores": 143
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::l",
+      "errores": 111
+    },
+    {
+      "clase": "androidx.core.view::p",
+      "errores": 100
+    },
+    {
+      "clase": "androidx.appcompat.app::g",
+      "errores": 76
+    },
+    {
+      "clase": "androidx.vectordrawable.graphics.drawable::o",
+      "errores": 74
+    },
+    {
+      "clase": "n::m",
+      "errores": 72
+    },
+    {
+      "clase": "com.google.android.gms.internal.measurement::s4",
+      "errores": 65
+    },
+    {
+      "clase": "androidx.fragment.app::l",
+      "errores": 51
+    },
+    {
+      "clase": "h0::l",
+      "errores": 47
+    },
+    {
+      "clase": "androidx.fragment.app::t",
+      "errores": 43
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns::d",
+      "errores": 43
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::g9",
+      "errores": 32
+    },
+    {
+      "clase": "p::o",
+      "errores": 31
+    },
+    {
+      "clase": "xa::l1",
+      "errores": 30
+    },
+    {
+      "clase": "com.google.android.gms.internal.measurement::l4",
+      "errores": 29
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::g3",
+      "errores": 26
+    },
+    {
+      "clase": "com.google.android.gms.internal.measurement::m4",
+      "errores": 24
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::s4",
+      "errores": 24
+    },
+    {
+      "clase": "com.open.leanback.widget::l",
+      "errores": 23
+    },
+    {
+      "clase": "androidx.appcompat.widget::l",
+      "errores": 19
+    },
+    {
+      "clase": "ac::k2",
+      "errores": 18
+    },
+    {
+      "clase": "androidx.appcompat.widget::q",
+      "errores": 18
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns::b",
+      "errores": 17
+    },
+    {
+      "clase": "k2::g",
+      "errores": 17
+    },
+    {
+      "clase": "androidx.core.view::x",
+      "errores": 15
+    },
+    {
+      "clase": "androidx.appcompat.widget::g",
+      "errores": 14
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::p4",
+      "errores": 14
+    },
+    {
+      "clase": "com.google.android.gms.internal.measurement::l",
+      "errores": 14
+    },
+    {
+      "clase": "androidx.core.view::r",
+      "errores": 14
+    },
+    {
+      "clase": "ac::i2",
+      "errores": 13
+    },
+    {
+      "clase": "l1::w",
+      "errores": 12
+    },
+    {
+      "clase": "androidx.core.view::w",
+      "errores": 11
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns::e",
+      "errores": 11
+    },
+    {
+      "clase": "h0::h0",
+      "errores": 11
+    },
+    {
+      "clase": "ha::p0",
+      "errores": 10
+    },
+    {
+      "clase": "p1::w",
+      "errores": 9
+    },
+    {
+      "clase": "androidx.appcompat.widget::h",
+      "errores": 9
+    },
+    {
+      "clase": "ha::n0",
+      "errores": 9
+    },
+    {
+      "clase": "androidx.appcompat.app::l",
+      "errores": 8
+    },
+    {
+      "clase": "androidx.vectordrawable.graphics.drawable::l",
+      "errores": 8
+    },
+    {
+      "clase": "xa::p1",
+      "errores": 8
+    },
+    {
+      "clase": "com.google.android.material.chip::e",
+      "errores": 8
+    },
+    {
+      "clase": "androidx.appcompat.widget::z",
+      "errores": 7
+    },
+    {
+      "clase": "com.google.android.gms.common.api.internal::l",
+      "errores": 7
+    },
+    {
+      "clase": "ac::u2",
+      "errores": 7
+    },
+    {
+      "clase": "com.google.android.gms.internal.measurement::b5",
+      "errores": 6
+    },
+    {
+      "clase": "androidx.appcompat.widget::v",
+      "errores": 6
+    },
+    {
+      "clase": "androidx.appcompat.widget::y",
+      "errores": 6
+    },
+    {
+      "clase": "androidx.core.widget::v",
+      "errores": 6
+    },
+    {
+      "clase": "ac::z0",
+      "errores": 6
+    },
+    {
+      "clase": "n::n",
+      "errores": 6
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::o4",
+      "errores": 6
+    },
+    {
+      "clase": "com.google.android.material.textfield::e",
+      "errores": 6
+    },
+    {
+      "clase": "com.uc.crashsdk::f",
+      "errores": 6
+    },
+    {
+      "clase": "g::h",
+      "errores": 6
+    },
+    {
+      "clase": "androidx.core.widget::x",
+      "errores": 5
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::i4",
+      "errores": 5
+    },
+    {
+      "clase": "l4::l",
+      "errores": 5
+    },
+    {
+      "clase": "androidx.fragment.app::w",
+      "errores": 5
+    },
+    {
+      "clase": "androidx.appcompat.widget::p",
+      "errores": 5
+    },
+    {
+      "clase": "androidx.core.view::l",
+      "errores": 5
+    },
+    {
+      "clase": "androidx.core.widget::w",
+      "errores": 5
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns::m",
+      "errores": 5
+    },
+    {
+      "clase": "com.google.android.material.internal::g",
+      "errores": 5
+    },
+    {
+      "clase": "kd::u2",
+      "errores": 5
+    },
+    {
+      "clase": "xa::s1",
+      "errores": 5
+    },
+    {
+      "clase": "androidx.activity::c",
+      "errores": 4
+    },
+    {
+      "clase": "androidx.appcompat.widget::f",
+      "errores": 4
+    },
+    {
+      "clase": "androidx.recyclerview.widget::l",
+      "errores": 4
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns.b::c",
+      "errores": 4
+    },
+    {
+      "clase": "p::l",
+      "errores": 4
+    },
+    {
+      "clase": "androidx.appcompat.widget::l2",
+      "errores": 4
+    },
+    {
+      "clase": "bb::g",
+      "errores": 4
+    },
+    {
+      "clase": "xa::z0",
+      "errores": 4
+    },
+    {
+      "clase": "androidx.fragment.app::d",
+      "errores": 3
+    },
+    {
+      "clase": "com.google.android.gms.internal.measurement::a5",
+      "errores": 3
+    },
+    {
+      "clase": "android.support.v4.media::b",
+      "errores": 3
+    },
+    {
+      "clase": "android.support.v4.media::l",
+      "errores": 3
+    },
+    {
+      "clase": "androidx.appcompat.widget::o",
+      "errores": 3
+    },
+    {
+      "clase": "f::f",
+      "errores": 3
+    },
+    {
+      "clase": "a6::g",
+      "errores": 3
+    },
+    {
+      "clase": "androidx.appcompat.widget::e",
+      "errores": 3
+    },
+    {
+      "clase": "n::g",
+      "errores": 3
+    },
+    {
+      "clase": "androidx.core.widget::t",
+      "errores": 3
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns::c",
+      "errores": 3
+    },
+    {
+      "clase": "p5::e",
+      "errores": 3
+    },
+    {
+      "clase": "androidx.core.app::l",
+      "errores": 2
+    },
+    {
+      "clase": "com.google.android.gms.internal.measurement::p4",
+      "errores": 2
+    },
+    {
+      "clase": "g::l",
+      "errores": 2
+    },
+    {
+      "clase": "androidx.lifecycle::i",
+      "errores": 2
+    },
+    {
+      "clase": "ac::f1",
+      "errores": 2
+    },
+    {
+      "clase": "anet.channel::b",
+      "errores": 2
+    },
+    {
+      "clase": "com.alibaba.sdk.android.httpdns.probe::g",
+      "errores": 2
+    },
+    {
+      "clase": "com.google.android.material.datepicker::e",
+      "errores": 2
+    },
+    {
+      "clase": "com.google.firebase.iid::l",
+      "errores": 2
+    },
+    {
+      "clase": "com.umeng.commonsdk.statistics.idtracking::f",
+      "errores": 2
+    },
+    {
+      "clase": "p::p",
+      "errores": 2
+    },
+    {
+      "clase": "u1::g",
+      "errores": 2
+    },
+    {
+      "clase": "j1::l",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.core.app::i0",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.appcompat.view.menu::h",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.fragment.app::c",
+      "errores": 1
+    },
+    {
+      "clase": "e2::l",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.fragment.app::h0",
+      "errores": 1
+    },
+    {
+      "clase": "ac::h2",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.appcompat.app::e",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.appcompat.app::o",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.appcompat.widget::w",
+      "errores": 1
+    },
+    {
+      "clase": "androidx.core.app::t",
+      "errores": 1
+    },
+    {
+      "clase": "x::t",
+      "errores": 1
+    },
+    {
+      "clase": "x::x",
+      "errores": 1
+    },
+    {
+      "clase": "anet.channel::e",
+      "errores": 1
+    },
+    {
+      "clase": "anet.channel::d",
+      "errores": 1
+    },
+    {
+      "clase": "anet.channel::c",
+      "errores": 1
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::a4",
+      "errores": 1
+    },
+    {
+      "clase": "com.google.android.gms.internal.measurement::a4",
+      "errores": 1
+    },
+    {
+      "clase": "com.google.android.gms.measurement.internal::m",
+      "errores": 1
+    },
+    {
+      "clase": "h6::f",
+      "errores": 1
+    },
+    {
+      "clase": "com.uc.crashsdk::g",
+      "errores": 1
+    },
+    {
+      "clase": "l4::t",
+      "errores": 1
+    },
+    {
+      "clase": "p1::v",
+      "errores": 1
+    },
+    {
+      "clase": "u1::e",
+      "errores": 1
+    }
+  ]
+}

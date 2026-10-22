@@ -1,0 +1,1953 @@
+{
+  "log": "mediciones/loop_36.log",
+  "errores_parseados": 4055,
+  "resumen_javac": 4055,
+  "suma_familias": 4055,
+  "familias_totales": {
+    "otro": 1111,
+    "cfs_variable": 1068,
+    "tipos": 877,
+    "override": 332,
+    "cfs_method": 283,
+    "cfs_class": 281,
+    "sobrecarga": 50,
+    "paquete": 48,
+    "inferencia": 5
+  },
+  "origen_totales": {
+    "raiz": 3415,
+    "cascada": 640
+  },
+  "prefijo_es_paquete": {
+    "total": 126,
+    "pares": [
+      {
+        "par": "g.b",
+        "n": 23,
+        "ejemplos": [
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 163,
+            "sym": "b",
+            "loc": "f.g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 1820,
+            "sym": "b",
+            "loc": "f.g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 1820,
+            "sym": "b",
+            "loc": "f.g",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "k.a",
+        "n": 12,
+        "ejemplos": [
+          {
+            "f": "com/main/ui/activity/HomeActivity.java",
+            "l": 1184,
+            "sym": "a",
+            "loc": "HomeActivity.k",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "com/vod/view/VodDetailBottomScrollView.java",
+            "l": 60,
+            "sym": "a",
+            "loc": "k",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "com/interactive/brasiliptv/ui/activity/WelcomeActivity.java",
+            "l": 57,
+            "sym": "a",
+            "loc": "k",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "g.d",
+        "n": 12,
+        "ejemplos": [
+          {
+            "f": "androidx/appcompat/widget/b0.java",
+            "l": 590,
+            "sym": "d",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/appcompat/widget/b0.java",
+            "l": 594,
+            "sym": "d",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 847,
+            "sym": "d",
+            "loc": "f.g",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "l.a",
+        "n": 11,
+        "ejemplos": [
+          {
+            "f": "androidx/fragment/app/c___.java",
+            "l": 849,
+            "sym": "a",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/fragment/app/c___.java",
+            "l": 203,
+            "sym": "a",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/fragment/app/c___.java",
+            "l": 205,
+            "sym": "a",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "g.f",
+        "n": 9,
+        "ejemplos": [
+          {
+            "f": "d9/g.java",
+            "l": 96,
+            "sym": "f",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "d9/g.java",
+            "l": 101,
+            "sym": "f",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "kd/g.java",
+            "l": 58,
+            "sym": "f",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "l.i",
+        "n": 8,
+        "ejemplos": [
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 71,
+            "sym": "i",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/core/view/q0.java",
+            "l": 722,
+            "sym": "i",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/core/view/q0.java",
+            "l": 722,
+            "sym": "i",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "l.b",
+        "n": 5,
+        "ejemplos": [
+          {
+            "f": "androidx/fragment/app/o.java",
+            "l": 554,
+            "sym": "b",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/fragment/app/o.java",
+            "l": 658,
+            "sym": "b",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/fragment/app/o.java",
+            "l": 700,
+            "sym": "b",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "d.f",
+        "n": 4,
+        "ejemplos": [
+          {
+            "f": "d9/d.java",
+            "l": 183,
+            "sym": "f",
+            "loc": "d",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "d9/d.java",
+            "l": 188,
+            "sym": "f",
+            "loc": "d",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "u8/d.java",
+            "l": 101,
+            "sym": "f",
+            "loc": "d",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "d.a",
+        "n": 4,
+        "ejemplos": [
+          {
+            "f": "androidx/activity/ComponentActivity.java",
+            "l": 109,
+            "sym": "a",
+            "loc": "ComponentActivity.d",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/activity/ComponentActivity.java",
+            "l": 72,
+            "sym": "a",
+            "loc": "ComponentActivity.d",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/activity/ComponentActivity.java",
+            "l": 74,
+            "sym": "a",
+            "loc": "ComponentActivity.d",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "g.c",
+        "n": 4,
+        "ejemplos": [
+          {
+            "f": "androidx/appcompat/widget/Toolbar.java",
+            "l": 196,
+            "sym": "c",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/appcompat/widget/Toolbar.java",
+            "l": 197,
+            "sym": "c",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/appcompat/widget/Toolbar.java",
+            "l": 244,
+            "sym": "c",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "c.a",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "androidx/activity/ComponentActivity.java",
+            "l": 35,
+            "sym": "a",
+            "loc": "ComponentActivity.c",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/activity/ComponentActivity.java",
+            "l": 35,
+            "sym": "a",
+            "loc": "ComponentActivity.c",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "c.b",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "androidx/activity/ComponentActivity.java",
+            "l": 250,
+            "sym": "b",
+            "loc": "ComponentActivity.c",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/activity/ComponentActivity.java",
+            "l": 161,
+            "sym": "b",
+            "loc": "ComponentActivity.c",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "v.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "d9/v.java",
+            "l": 110,
+            "sym": "f",
+            "loc": "v",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "d9/v.java",
+            "l": 115,
+            "sym": "f",
+            "loc": "v",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "m.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "d9/m.java",
+            "l": 325,
+            "sym": "f",
+            "loc": "m",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "d9/m.java",
+            "l": 330,
+            "sym": "f",
+            "loc": "m",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "p0.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "d9/p0.java",
+            "l": 134,
+            "sym": "f",
+            "loc": "p0",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "d9/p0.java",
+            "l": 139,
+            "sym": "f",
+            "loc": "p0",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "r1.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "kd/r1.java",
+            "l": 94,
+            "sym": "f",
+            "loc": "r1",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "kd/r1.java",
+            "l": 99,
+            "sym": "f",
+            "loc": "r1",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "l2.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "kd/l2.java",
+            "l": 322,
+            "sym": "f",
+            "loc": "l2",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "kd/l2.java",
+            "l": 327,
+            "sym": "f",
+            "loc": "l2",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "e.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "kd/e.java",
+            "l": 280,
+            "sym": "f",
+            "loc": "e",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "kd/e.java",
+            "l": 285,
+            "sym": "f",
+            "loc": "e",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "a.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "kd/k1.java",
+            "l": 90,
+            "sym": "f",
+            "loc": "a",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "kd/k1.java",
+            "l": 95,
+            "sym": "f",
+            "loc": "a",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "m1.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "kd/m1.java",
+            "l": 183,
+            "sym": "f",
+            "loc": "m1",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "kd/m1.java",
+            "l": 188,
+            "sym": "f",
+            "loc": "m1",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "n.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "oa/n.java",
+            "l": 69,
+            "sym": "f",
+            "loc": "n",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "oa/n.java",
+            "l": 74,
+            "sym": "f",
+            "loc": "n",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "l.f",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "oa/l.java",
+            "l": 75,
+            "sym": "f",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "oa/l.java",
+            "l": 80,
+            "sym": "f",
+            "loc": "l",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "g.g",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "androidx/appcompat/widget/Toolbar.java",
+            "l": 575,
+            "sym": "g",
+            "loc": "g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 2315,
+            "sym": "g",
+            "loc": "f.g",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "g.e",
+        "n": 2,
+        "ejemplos": [
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 1904,
+            "sym": "e",
+            "loc": "f.g",
+            "msg": "cannot find symbol"
+          },
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 1904,
+            "sym": "e",
+            "loc": "f.g",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "b0.a",
+        "n": 1,
+        "ejemplos": [
+          {
+            "f": "androidx/recyclerview/widget/RecyclerView.java",
+            "l": 4263,
+            "sym": "a",
+            "loc": "b0",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "x1.f",
+        "n": 1,
+        "ejemplos": [
+          {
+            "f": "kd/x1.java",
+            "l": 61,
+            "sym": "f",
+            "loc": "x1",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "f1.f",
+        "n": 1,
+        "ejemplos": [
+          {
+            "f": "kd/f1.java",
+            "l": 96,
+            "sym": "f",
+            "loc": "f1",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "f.d",
+        "n": 1,
+        "ejemplos": [
+          {
+            "f": "f/c.java",
+            "l": 524,
+            "sym": "d",
+            "loc": "f",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "g.m",
+        "n": 1,
+        "ejemplos": [
+          {
+            "f": "androidx/appcompat/app/f.java",
+            "l": 499,
+            "sym": "m",
+            "loc": "f.g",
+            "msg": "cannot find symbol"
+          }
+        ]
+      },
+      {
+        "par": "a.e",
+        "n": 1,
+        "ejemplos": [
+          {
+            "f": "com/module/view/MFInfoBar.java",
+            "l": 507,
+            "sym": "e",
+            "loc": "MFInfoBar.k.a",
+            "msg": "cannot find symbol"
+          }
+        ]
+      }
+    ]
+  },
+  "filas": [
+    {
+      "familia": "otro",
+      "origen": "raiz",
+      "destino": "",
+      "n": 1008,
+      "ejemplos": [
+        {
+          "f": "x9/m.java",
+          "l": 166,
+          "sym": null,
+          "loc": null,
+          "msg": "method e(f,Object) is already defined in class m",
+          "cod": "    public void e(f r1, Object r2) {"
+        },
+        {
+          "f": "h3/a.java",
+          "l": 5,
+          "sym": null,
+          "loc": null,
+          "msg": "a is already defined in this compilation unit",
+          "cod": "import ca.a;"
+        },
+        {
+          "f": "ee/a.java",
+          "l": 21,
+          "sym": null,
+          "loc": null,
+          "msg": "name clash: fold(Object,p) and <R>fold(R,p) have the same erasure",
+          "cod": "    public Object fold(Object r1, p r2) {"
+        }
+      ]
+    },
+    {
+      "familia": "tipos",
+      "origen": "raiz",
+      "destino": "",
+      "n": 727,
+      "ejemplos": [
+        {
+          "f": "j1/h.java",
+          "l": 9,
+          "sym": null,
+          "loc": null,
+          "msg": "incompatible types: b cannot be converted to a",
+          "cod": "    private final l.a f17730b = new e2.b();"
+        },
+        {
+          "f": "l/a.java",
+          "l": 99,
+          "sym": null,
+          "loc": null,
+          "msg": "incompatible types: Object cannot be converted to Entry",
+          "cod": "        for (Map.Entry entry : map.entrySet()) {"
+        },
+        {
+          "f": "xa/x0.java",
+          "l": 201,
+          "sym": null,
+          "loc": null,
+          "msg": "incompatible types: xa.x0.a cannot be converted to xa.y0.a",
+          "cod": "            a aVar = x0.f24313q;"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "raiz",
+      "destino": "loc_en_classpath_sin_indice",
+      "n": 369,
+      "ejemplos": [
+        {
+          "f": "zd/a.java",
+          "l": 28,
+          "sym": "padding",
+          "loc": "attr",
+          "msg": "cannot find symbol",
+          "cod": "    private static final int[] f24963b = {R.attr.textSize, R.attr.padding, R.attr.paddingL"
+        },
+        {
+          "f": "zd/a.java",
+          "l": 28,
+          "sym": "paddingLeft",
+          "loc": "attr",
+          "msg": "cannot find symbol",
+          "cod": "    private static final int[] f24963b = {R.attr.textSize, R.attr.padding, R.attr.paddingL"
+        },
+        {
+          "f": "zd/a.java",
+          "l": 28,
+          "sym": "paddingTop",
+          "loc": "attr",
+          "msg": "cannot find symbol",
+          "cod": "    private static final int[] f24963b = {R.attr.textSize, R.attr.padding, R.attr.paddingL"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "raiz",
+      "destino": "campo_ausente_en_DEX",
+      "n": 344,
+      "ejemplos": [
+        {
+          "f": "androidx/fragment/app/i0.java",
+          "l": 211,
+          "sym": "f2752a",
+          "loc": "c",
+          "msg": "cannot find symbol",
+          "cod": "                int i10 = c.f2752a[ordinal()];"
+        },
+        {
+          "f": "androidx/fragment/app/i0.java",
+          "l": 319,
+          "sym": "f2753b",
+          "loc": "c",
+          "msg": "cannot find symbol",
+          "cod": "            int i10 = c.f2753b[bVar.ordinal()];"
+        },
+        {
+          "f": "okhttp3/internal/http2/Http2Connection.java",
+          "l": 551,
+          "sym": "e",
+          "loc": "Http2Connection",
+          "msg": "cannot find symbol",
+          "cod": "            e = null;"
+        }
+      ]
+    },
+    {
+      "familia": "override",
+      "origen": "raiz",
+      "destino": "",
+      "n": 292,
+      "ejemplos": [
+        {
+          "f": "l/h.java",
+          "l": 86,
+          "sym": null,
+          "loc": null,
+          "msg": "method does not override or implement a method from a supertype",
+          "cod": "        @Override // java.util.Set, java.util.Collection"
+        },
+        {
+          "f": "androidx/fragment/app/e.java",
+          "l": 62,
+          "sym": null,
+          "loc": null,
+          "msg": "method does not override or implement a method from a supertype",
+          "cod": "        @Override // c.b"
+        },
+        {
+          "f": "androidx/fragment/app/d_.java",
+          "l": 134,
+          "sym": null,
+          "loc": null,
+          "msg": "method does not override or implement a method from a supertype",
+          "cod": "        @Override // androidx.fragment.app.g"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "raiz",
+      "destino": "sin_location_met",
+      "n": 174,
+      "ejemplos": [
+        {
+          "f": "xa/x0.java",
+          "l": 203,
+          "sym": "b",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                aVar.b(z10, x0.f24304h, x0.f24306j);"
+        },
+        {
+          "f": "a2/a.java",
+          "l": 347,
+          "sym": "putAll",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "            bVar.putAll(this.f183r);"
+        },
+        {
+          "f": "com/bumptech/glide/manager/n.java",
+          "l": 94,
+          "sym": "clear",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "        this.f5997c.clear();"
+        }
+      ]
+    },
+    {
+      "familia": "tipos",
+      "origen": "cascada",
+      "destino": "",
+      "n": 150,
+      "ejemplos": [
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 4469,
+          "sym": null,
+          "loc": null,
+          "msg": "incompatible types: bad type in conditional expression",
+          "cod": "                recyclerView = parent instanceof View ? (View) parent : null;"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 5916,
+          "sym": null,
+          "loc": null,
+          "msg": "incompatible types: ViewParent cannot be converted to View",
+          "cod": "            view = parent;"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 6025,
+          "sym": null,
+          "loc": null,
+          "msg": "incompatible types: boolean cannot be converted to int",
+          "cod": "        int iCanScrollHorizontally = pVar.canScrollHorizontally();"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "raiz",
+      "destino": "sin_location_var",
+      "n": 141,
+      "ejemplos": [
+        {
+          "f": "androidx/fragment/app/d_.java",
+          "l": 79,
+          "sym": "f2671z0",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                dVar.onCancel(dVar.f2671z0);"
+        },
+        {
+          "f": "androidx/fragment/app/d_.java",
+          "l": 92,
+          "sym": "f2671z0",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                dVar.onDismiss(dVar.f2671z0);"
+        },
+        {
+          "f": "androidx/fragment/app/a.java",
+          "l": 181,
+          "sym": "f2882c",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                    int size2 = aVar.f2882c.size();"
+        }
+      ]
+    },
+    {
+      "familia": "otro",
+      "origen": "cascada",
+      "destino": "",
+      "n": 103,
+      "ejemplos": [
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 185,
+          "sym": null,
+          "loc": null,
+          "msg": "non-static variable this cannot be referenced from a static context",
+          "cod": "            RecyclerView recyclerView = RecyclerView.this;"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 189,
+          "sym": null,
+          "loc": null,
+          "msg": "non-static variable this cannot be referenced from a static context",
+          "cod": "            RecyclerView recyclerView2 = RecyclerView.this;"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 1639,
+          "sym": null,
+          "loc": null,
+          "msg": "l is not abstract and does not override abstract method a(RecyclerView,int) in l",
+          "cod": "    public static class l {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "raiz",
+      "destino": "campo_en_DEX",
+      "n": 100,
+      "ejemplos": [
+        {
+          "f": "xa/g0.java",
+          "l": 276,
+          "sym": "e",
+          "loc": "g0",
+          "msg": "cannot find symbol",
+          "cod": "                    e = e10;"
+        },
+        {
+          "f": "xa/g0.java",
+          "l": 278,
+          "sym": "e",
+          "loc": "g0",
+          "msg": "cannot find symbol",
+          "cod": "                    return new d1(\"-1\", String.valueOf(e.getMessage()), Double.valueOf(Sys"
+        },
+        {
+          "f": "xa/g0.java",
+          "l": 281,
+          "sym": "e",
+          "loc": "g0",
+          "msg": "cannot find symbol",
+          "cod": "                e = e11;"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "cascada",
+      "destino": "prefijo_es_paquete",
+      "n": 93,
+      "ejemplos": [
+        {
+          "f": "androidx/fragment/app/o.java",
+          "l": 658,
+          "sym": "b",
+          "loc": "l",
+          "msg": "cannot find symbol",
+          "cod": "    private int Z0(ArrayList arrayList, ArrayList arrayList2, int i10, int i11, l.b bVar) "
+        },
+        {
+          "f": "androidx/fragment/app/o.java",
+          "l": 700,
+          "sym": "b",
+          "loc": "l",
+          "msg": "cannot find symbol",
+          "cod": "    private void d(l.b bVar) {"
+        },
+        {
+          "f": "androidx/activity/ComponentActivity.java",
+          "l": 250,
+          "sym": "b",
+          "loc": "ComponentActivity.c",
+          "msg": "cannot find symbol",
+          "cod": "    public final void T3(c.b bVar) {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "cascada",
+      "destino": "anidado_ausente_en_DEX",
+      "n": 76,
+      "ejemplos": [
+        {
+          "f": "d9/j0.java",
+          "l": 77,
+          "sym": "f",
+          "loc": "j0",
+          "msg": "cannot find symbol",
+          "cod": "    public void e(f r1, Object r2) {"
+        },
+        {
+          "f": "d9/g0.java",
+          "l": 350,
+          "sym": "f",
+          "loc": "g0",
+          "msg": "cannot find symbol",
+          "cod": "    public void e(f r1, Object r2) {"
+        },
+        {
+          "f": "d9/u0.java",
+          "l": 322,
+          "sym": "f",
+          "loc": "u0",
+          "msg": "cannot find symbol",
+          "cod": "    public void e(f r1, Object r2) {"
+        }
+      ]
+    },
+    {
+      "familia": "override",
+      "origen": "cascada",
+      "destino": "",
+      "n": 40,
+      "ejemplos": [
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 4305,
+          "sym": null,
+          "loc": null,
+          "msg": "method does not override or implement a method from a supertype",
+          "cod": "        @Override // b0.a, android.os.Parcelable"
+        },
+        {
+          "f": "androidx/activity/ComponentActivity.java",
+          "l": 165,
+          "sym": null,
+          "loc": null,
+          "msg": "method does not override or implement a method from a supertype",
+          "cod": "        @Override // c.b"
+        },
+        {
+          "f": "androidx/fragment/app/o.java",
+          "l": 348,
+          "sym": null,
+          "loc": null,
+          "msg": "method does not override or implement a method from a supertype",
+          "cod": "        @Override"
+        }
+      ]
+    },
+    {
+      "familia": "sobrecarga",
+      "origen": "raiz",
+      "destino": "",
+      "n": 40,
+      "ejemplos": [
+        {
+          "f": "androidx/activity/result/d.java",
+          "l": 91,
+          "sym": null,
+          "loc": null,
+          "msg": "method c in class d.a cannot be applied to given types;",
+          "cod": "            bVar2.a(bVar.f1016b.c(i10, intent));"
+        },
+        {
+          "f": "androidx/activity/result/d.java",
+          "l": 191,
+          "sym": null,
+          "loc": null,
+          "msg": "method c in class d.a cannot be applied to given types;",
+          "cod": "            bVar.a(aVar.c(aVar2.b(), aVar2.a()));"
+        },
+        {
+          "f": "androidx/lifecycle/LiveData.java",
+          "l": 41,
+          "sym": null,
+          "loc": null,
+          "msg": "constructor c in class LiveData.c cannot be applied to given types;",
+          "cod": "    class LifecycleBoundObserver extends androidx.lifecycle.LiveData.c implements d {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "raiz",
+      "destino": "metodo_ausente_en_DEX",
+      "n": 39,
+      "ejemplos": [
+        {
+          "f": "n9/f.java",
+          "l": 149,
+          "sym": "ea",
+          "loc": "androidx.fragment.app.Fragment.f",
+          "msg": "cannot find symbol",
+          "cod": "                f.ea(n9.f.this, view);"
+        },
+        {
+          "f": "n9/f.java",
+          "l": 303,
+          "sym": "ba",
+          "loc": "androidx.fragment.app.Fragment.f",
+          "msg": "cannot find symbol",
+          "cod": "                f.ba(n9.f.this);"
+        },
+        {
+          "f": "com/uc/crashsdk/a_.java",
+          "l": 136,
+          "sym": "a_",
+          "loc": "a_",
+          "msg": "cannot find symbol",
+          "cod": "        a_(str, Thread.currentThread());"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "raiz",
+      "destino": "anidado_ausente_en_DEX",
+      "n": 37,
+      "ejemplos": [
+        {
+          "f": "d9/j0.java",
+          "l": 72,
+          "sym": "f",
+          "loc": "j0",
+          "msg": "cannot find symbol",
+          "cod": "    public void e(f r1, Object r2) {"
+        },
+        {
+          "f": "d9/g0.java",
+          "l": 345,
+          "sym": "f",
+          "loc": "g0",
+          "msg": "cannot find symbol",
+          "cod": "    public void e(f r1, Object r2) {"
+        },
+        {
+          "f": "d9/u0.java",
+          "l": 317,
+          "sym": "f",
+          "loc": "u0",
+          "msg": "cannot find symbol",
+          "cod": "    public void e(f r1, Object r2) {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "raiz",
+      "destino": "prefijo_es_paquete",
+      "n": 33,
+      "ejemplos": [
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 4263,
+          "sym": "a",
+          "loc": "b0",
+          "msg": "cannot find symbol",
+          "cod": "    public static class z extends b0.a {"
+        },
+        {
+          "f": "androidx/fragment/app/o.java",
+          "l": 554,
+          "sym": "b",
+          "loc": "l",
+          "msg": "cannot find symbol",
+          "cod": "    private void N0(l.b bVar) {"
+        },
+        {
+          "f": "androidx/activity/ComponentActivity.java",
+          "l": 35,
+          "sym": "a",
+          "loc": "ComponentActivity.c",
+          "msg": "cannot find symbol",
+          "cod": "    final c.a f954c = new c.a();"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "cascada",
+      "destino": "campo_ausente_en_DEX",
+      "n": 30,
+      "ejemplos": [
+        {
+          "f": "n7/q.java",
+          "l": 627,
+          "sym": "BuildConfig",
+          "loc": "q",
+          "msg": "cannot find symbol",
+          "cod": "        Observable observableJust = Observable.just(BuildConfig.VERSION_NAME);"
+        },
+        {
+          "f": "f9/a.java",
+          "l": 106,
+          "sym": "BuildConfig",
+          "loc": "a",
+          "msg": "cannot find symbol",
+          "cod": "                if (BuildConfig.DEBUG) {"
+        },
+        {
+          "f": "f9/a.java",
+          "l": 112,
+          "sym": "BuildConfig",
+          "loc": "a",
+          "msg": "cannot find symbol",
+          "cod": "            if (BuildConfig.DEBUG) {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "cascada",
+      "destino": "sin_location_met",
+      "n": 29,
+      "ejemplos": [
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 4307,
+          "sym": "writeToParcel",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "            super.writeToParcel(parcel, i10);"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 6887,
+          "sym": "a",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "        super.onRestoreInstanceState(zVar.a());"
+        },
+        {
+          "f": "com/noface/NFConfigFragment.java",
+          "l": 153,
+          "sym": "onActivityResult",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "        super.onActivityResult(i10, i11, intent);"
+        }
+      ]
+    },
+    {
+      "familia": "paquete",
+      "origen": "raiz",
+      "destino": "",
+      "n": 28,
+      "ejemplos": [
+        {
+          "f": "com/taobao/accs/a/a.java",
+          "l": 1,
+          "sym": null,
+          "loc": null,
+          "msg": "package com.taobao.accs.a clashes with class of same name",
+          "cod": "package com.taobao.accs.a;"
+        },
+        {
+          "f": "com/taobao/accs/a/b.java",
+          "l": 1,
+          "sym": null,
+          "loc": null,
+          "msg": "package com.taobao.accs.a clashes with class of same name",
+          "cod": "package com.taobao.accs.a;"
+        },
+        {
+          "f": "com/umeng/message/UmengMessageHandler.java",
+          "l": 42,
+          "sym": null,
+          "loc": null,
+          "msg": "package com.umeng.message.push does not exist",
+          "cod": "import com.umeng.message.push.R;"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "cascada",
+      "destino": "loc_en_classpath_sin_indice",
+      "n": 24,
+      "ejemplos": [
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 177,
+          "sym": "nestedScrollingEnabled",
+          "loc": "attr",
+          "msg": "cannot find symbol",
+          "cod": "    private static final int[] NESTED_SCROLLING_ATTRS = {R.attr.nestedScrollingEnabled};"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 2153,
+          "sym": "f3055a",
+          "loc": "styleable",
+          "msg": "cannot find symbol",
+          "cod": "            TypedArray typedArrayObtainStyledAttributes = context.obtainStyledAttributes(a"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 4394,
+          "sym": "f3055a",
+          "loc": "styleable",
+          "msg": "cannot find symbol",
+          "cod": "        int[] iArr = R.styleable.f3055a;"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "cascada",
+      "destino": "sin_location_var",
+      "n": 22,
+      "ejemplos": [
+        {
+          "f": "qd/u.java",
+          "l": 929,
+          "sym": "f21432a",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                u.r5(this.f21432a, observableEmitter);"
+        },
+        {
+          "f": "qd/u.java",
+          "l": 961,
+          "sym": "f21433a",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                u.t5(this.f21433a, observableEmitter);"
+        },
+        {
+          "f": "qd/u.java",
+          "l": 995,
+          "sym": "f21430a",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                u.z5(this.f21430a, i10, observableEmitter);"
+        }
+      ]
+    },
+    {
+      "familia": "paquete",
+      "origen": "cascada",
+      "destino": "",
+      "n": 20,
+      "ejemplos": [
+        {
+          "f": "nf/C0253.java",
+          "l": 5,
+          "sym": null,
+          "loc": null,
+          "msg": "package zx does not exist",
+          "cod": "import zx.w;"
+        },
+        {
+          "f": "nf/C0253.java",
+          "l": 6,
+          "sym": null,
+          "loc": null,
+          "msg": "package zx does not exist",
+          "cod": "import zx.y;"
+        },
+        {
+          "f": "nf/C0253.java",
+          "l": 7,
+          "sym": null,
+          "loc": null,
+          "msg": "package zx does not exist",
+          "cod": "import zx.卆;"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "raiz",
+      "destino": "campo_loc_src_sin_dex",
+      "n": 20,
+      "ejemplos": [
+        {
+          "f": "ac/h0.java",
+          "l": 39,
+          "sym": "f17370a",
+          "loc": "i2_.a",
+          "msg": "cannot find symbol",
+          "cod": "            i2.c cVarB = i2_.a.f17370a.b();"
+        },
+        {
+          "f": "ac/g0.java",
+          "l": 114,
+          "sym": "f17370a",
+          "loc": "i2_.a",
+          "msg": "cannot find symbol",
+          "cod": "        String strI = i2_.a.f17370a.a().i(aVar2.a());"
+        },
+        {
+          "f": "ac/m1.java",
+          "l": 59,
+          "sym": "f17370a",
+          "loc": "i2_.a",
+          "msg": "cannot find symbol",
+          "cod": "                i2.c cVarB = i2_.a.f17370a.b();"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "raiz",
+      "destino": "loc_no_resuelve_miembro",
+      "n": 15,
+      "ejemplos": [
+        {
+          "f": "za/f.java",
+          "l": 663,
+          "sym": "g",
+          "loc": "k2_.b",
+          "msg": "cannot find symbol",
+          "cod": "        fc.b.c(k2_.b.g(context));"
+        },
+        {
+          "f": "h3/d.java",
+          "l": 170,
+          "sym": "e",
+          "loc": "f",
+          "msg": "cannot find symbol",
+          "cod": "        L9().e();"
+        },
+        {
+          "f": "h3/d.java",
+          "l": 179,
+          "sym": "i",
+          "loc": "f",
+          "msg": "cannot find symbol",
+          "cod": "        L9().i(arrayList);"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "cascada",
+      "destino": "ninguno",
+      "n": 14,
+      "ejemplos": [
+        {
+          "f": "com/umeng/message/proguard/dq.java",
+          "l": 332,
+          "sym": "AnonymousClass2",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                                        AnonymousClass2 anonymousClass2 = AnonymousClass2."
+        },
+        {
+          "f": "com/umeng/message/proguard/dq.java",
+          "l": 353,
+          "sym": "AnonymousClass2",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                                    AnonymousClass2 anonymousClass2 = AnonymousClass2.this"
+        },
+        {
+          "f": "com/umeng/message/proguard/dq.java",
+          "l": 353,
+          "sym": "AnonymousClass2",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                                    AnonymousClass2 anonymousClass2 = AnonymousClass2.this"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "cascada",
+      "destino": "campo_loc_src_sin_dex",
+      "n": 12,
+      "ejemplos": [
+        {
+          "f": "f9/a.java",
+          "l": 36,
+          "sym": "BuildConfig",
+          "loc": "a.C0176a",
+          "msg": "cannot find symbol",
+          "cod": "            if (BuildConfig.DEBUG) {"
+        },
+        {
+          "f": "nf/C0245.java",
+          "l": 11,
+          "sym": "霜",
+          "loc": "C0245",
+          "msg": "cannot find symbol",
+          "cod": "            霜.解(context);"
+        },
+        {
+          "f": "nf/C0246.java",
+          "l": 12,
+          "sym": "岁",
+          "loc": "C0246",
+          "msg": "cannot find symbol",
+          "cod": "            岁.密((Context) null);"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "raiz",
+      "destino": "import_ok_pero_falla",
+      "n": 10,
+      "ejemplos": [
+        {
+          "f": "n7/q.java",
+          "l": 15,
+          "sym": "BuildConfig",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "import com.bytedance.boost_multidex.BuildConfig;"
+        },
+        {
+          "f": "f9/a.java",
+          "l": 14,
+          "sym": "BuildConfig",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "import org.xutils.BuildConfig;"
+        },
+        {
+          "f": "d9/v.java",
+          "l": 9,
+          "sym": "BuildConfig",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "import org.xutils.BuildConfig;"
+        }
+      ]
+    },
+    {
+      "familia": "sobrecarga",
+      "origen": "cascada",
+      "destino": "",
+      "n": 10,
+      "ejemplos": [
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 3257,
+          "sym": null,
+          "loc": null,
+          "msg": "method a in class a cannot be applied to given types;",
+          "cod": "                    a0.a.a(((f0) it.next()).itemView);"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 3276,
+          "sym": null,
+          "loc": null,
+          "msg": "method a in class a cannot be applied to given types;",
+          "cod": "                    a0.a.a(((f0) arrayList.get(i11)).itemView);"
+        },
+        {
+          "f": "androidx/recyclerview/widget/RecyclerView.java",
+          "l": 3321,
+          "sym": null,
+          "loc": null,
+          "msg": "method a in class a cannot be applied to given types;",
+          "cod": "                a0.a.a(f0Var.itemView);"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "cascada",
+      "destino": "import_ok_pero_falla",
+      "n": 9,
+      "ejemplos": [
+        {
+          "f": "nf/C0241.java",
+          "l": 5,
+          "sym": "宿",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "import yb.宿;"
+        },
+        {
+          "f": "anet/channel/b/a.java",
+          "l": 6,
+          "sym": "AVFSCacheConfig",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "import com.taobao.alivfssdk.cache.AVFSCacheConfig;"
+        },
+        {
+          "f": "anet/channel/b/a.java",
+          "l": 7,
+          "sym": "AVFSCacheManager",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "import com.taobao.alivfssdk.cache.AVFSCacheManager;"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "raiz",
+      "destino": "loc_en_classpath_sin_indice",
+      "n": 7,
+      "ejemplos": [
+        {
+          "f": "ac/m1.java",
+          "l": 110,
+          "sym": "N",
+          "loc": "Disposable",
+          "msg": "cannot find symbol",
+          "cod": "                    if (rb.a.g(this.f663g) && ne.k.a(loginResult.getData().getPwdTip(), \"y"
+        },
+        {
+          "f": "ac/m1.java",
+          "l": 308,
+          "sym": "T",
+          "loc": "Disposable",
+          "msg": "cannot find symbol",
+          "cod": "            if (!aVar3.a().T()) {"
+        },
+        {
+          "f": "ac/m1.java",
+          "l": 316,
+          "sym": "v",
+          "loc": "Disposable",
+          "msg": "cannot find symbol",
+          "cod": "            } else if (aVar3.a().v()) {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "raiz",
+      "destino": "metodo_loc_src_sin_dex",
+      "n": 7,
+      "ejemplos": [
+        {
+          "f": "k8/c.java",
+          "l": 105,
+          "sym": "J9",
+          "loc": "d_.c",
+          "msg": "cannot find symbol",
+          "cod": "                c.J9(k8.c.this, view);"
+        },
+        {
+          "f": "hb/c.java",
+          "l": 103,
+          "sym": "L9",
+          "loc": "d_.c",
+          "msg": "cannot find symbol",
+          "cod": "                c.L9(hb.c.this, view);"
+        },
+        {
+          "f": "hb/c.java",
+          "l": 109,
+          "sym": "M9",
+          "loc": "d_.c",
+          "msg": "cannot find symbol",
+          "cod": "                c.M9(hb.c.this, view);"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "raiz",
+      "destino": "metodo_en_DEX",
+      "n": 7,
+      "ejemplos": [
+        {
+          "f": "ed/b.java",
+          "l": 103,
+          "sym": "getView",
+          "loc": "b",
+          "msg": "cannot find symbol",
+          "cod": "                width = ((b) this.f15526f.get()).getView().getWidth();"
+        },
+        {
+          "f": "ed/b.java",
+          "l": 104,
+          "sym": "getView",
+          "loc": "b",
+          "msg": "cannot find symbol",
+          "cod": "                height = ((b) this.f15526f.get()).getView().getHeight();"
+        },
+        {
+          "f": "com/google/android/material/textfield/e___.java",
+          "l": 402,
+          "sym": "d",
+          "loc": "e___.b",
+          "msg": "cannot find symbol",
+          "cod": "        this.f8961a.setEndIconDrawable(e___.b.d(this.f8962b, f8937o ? R.drawable.mtrl_drop"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_variable",
+      "origen": "raiz",
+      "destino": "loc_no_resuelve_miembro",
+      "n": 6,
+      "ejemplos": [
+        {
+          "f": "za/f.java",
+          "l": 667,
+          "sym": "k",
+          "loc": "z0",
+          "msg": "cannot find symbol",
+          "cod": "        z0.k.f24737a.d(m0Var.i(), m0Var.t());"
+        },
+        {
+          "f": "ba/d.java",
+          "l": 66,
+          "sym": "X",
+          "loc": "f",
+          "msg": "cannot find symbol",
+          "cod": "        k.f(context, f.X);"
+        },
+        {
+          "f": "x8/p.java",
+          "l": 1687,
+          "sym": "h",
+          "loc": "z0",
+          "msg": "cannot find symbol",
+          "cod": "            F(z0.h.f24704q.a(), m0.f5438a.w(), null, 2, null);"
+        }
+      ]
+    },
+    {
+      "familia": "inferencia",
+      "origen": "raiz",
+      "destino": "",
+      "n": 5,
+      "ejemplos": [
+        {
+          "f": "com/raizlabs/android/dbflow/sql/language/Operator.java",
+          "l": 178,
+          "sym": null,
+          "loc": null,
+          "msg": "cannot infer type arguments for Between<>",
+          "cod": "        return new Between<>(t10);"
+        },
+        {
+          "f": "com/raizlabs/android/dbflow/sql/language/Operator.java",
+          "l": 336,
+          "sym": null,
+          "loc": null,
+          "msg": "cannot infer type arguments for In<>",
+          "cod": "        return new In<>(t10, true, tArr);"
+        },
+        {
+          "f": "com/raizlabs/android/dbflow/sql/language/Operator.java",
+          "l": 341,
+          "sym": null,
+          "loc": null,
+          "msg": "cannot infer type arguments for In<>",
+          "cod": "        return new In<>((Collection) collection, true);"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "cascada",
+      "destino": "metodo_ausente_en_DEX",
+      "n": 3,
+      "ejemplos": [
+        {
+          "f": "antlr/debug/misc/ASTFrame.java",
+          "l": 45,
+          "sym": "getContentPane",
+          "loc": "ASTFrame",
+          "msg": "cannot find symbol",
+          "cod": "        getContentPane().add(new JTreeASTPanel(new JTreeASTModel(ast), null), \"Center\");"
+        },
+        {
+          "f": "antlr/debug/misc/ASTFrame.java",
+          "l": 53,
+          "sym": "setSize",
+          "loc": "ASTFrame",
+          "msg": "cannot find symbol",
+          "cod": "        setSize(200, 300);"
+        },
+        {
+          "f": "antlr/debug/misc/ASTFrame.java",
+          "l": 62,
+          "sym": "setVisible",
+          "loc": "ASTFrame",
+          "msg": "cannot find symbol",
+          "cod": "        new ASTFrame(\"AST JTree Example\", commonAST).setVisible(true);"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "raiz",
+      "destino": "anidado_en_classpath",
+      "n": 2,
+      "ejemplos": [
+        {
+          "f": "com/interactive/brasiliptv/ui/activity/VideoSplashListener.java",
+          "l": 6,
+          "sym": "OnCompletionListener",
+          "loc": "VideoView",
+          "msg": "cannot find symbol",
+          "cod": "public class VideoSplashListener implements VideoView.OnCompletionListener, VideoView.OnEr"
+        },
+        {
+          "f": "org/xutils/common/task/b.java",
+          "l": 145,
+          "sym": "CancelledException",
+          "loc": "Callback",
+          "msg": "cannot find symbol",
+          "cod": "                        bVar.f20589a.onCancelled((Callback.CancelledException) objArr[0]);"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "cascada",
+      "destino": "loc_src_sin_dex",
+      "n": 2,
+      "ejemplos": [
+        {
+          "f": "org/xutils/image/a.java",
+          "l": 130,
+          "sym": "K",
+          "loc": "C0274a",
+          "msg": "cannot find symbol",
+          "cod": "        public int sizeOf(K r1, V r2) {"
+        },
+        {
+          "f": "org/xutils/image/a.java",
+          "l": 130,
+          "sym": "V",
+          "loc": "C0274a",
+          "msg": "cannot find symbol",
+          "cod": "        public int sizeOf(K r1, V r2) {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_method",
+      "origen": "cascada",
+      "destino": "loc_no_resuelve_miembro",
+      "n": 2,
+      "ejemplos": [
+        {
+          "f": "com/noface/NFConfigFragment.java",
+          "l": 161,
+          "sym": "verifyDns",
+          "loc": "C0247",
+          "msg": "cannot find symbol",
+          "cod": "            C0247.verifyDns(contextJ6);"
+        },
+        {
+          "f": "com/widget/view/AutoConstraintLayout.java",
+          "l": 22,
+          "sym": "b",
+          "loc": "a",
+          "msg": "cannot find symbol",
+          "cod": "            this.mAutoLayoutInfo = a.b(context, attributeSet);"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "raiz",
+      "destino": "ninguno",
+      "n": 2,
+      "ejemplos": [
+        {
+          "f": "com/umeng/message/proguard/dq.java",
+          "l": 332,
+          "sym": "AnonymousClass2",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                                        AnonymousClass2 anonymousClass2 = AnonymousClass2."
+        },
+        {
+          "f": "retrofit2/DefaultCallAdapterFactory.java",
+          "l": 58,
+          "sym": "AnonymousClass1",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "                            AnonymousClass1 anonymousClass1 = AnonymousClass1.this;"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "raiz",
+      "destino": "loc_no_resuelve",
+      "n": 1,
+      "ejemplos": [
+        {
+          "f": "com/widget/view/AutoConstraintLayout.java",
+          "l": 13,
+          "sym": "InterfaceC0363a",
+          "loc": "a",
+          "msg": "cannot find symbol",
+          "cod": "    public static class LayoutParams extends c.a implements a.InterfaceC0363a {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "raiz",
+      "destino": "clase_en_fuente_local",
+      "n": 1,
+      "ejemplos": [
+        {
+          "f": "com/umeng/commonsdk/statistics/proto/e.java",
+          "l": 32,
+          "sym": "EnumC0133e",
+          "loc": null,
+          "msg": "cannot find symbol",
+          "cod": "public class e implements ch<e, EnumC0133e>, Serializable, Cloneable {"
+        }
+      ]
+    },
+    {
+      "familia": "cfs_class",
+      "origen": "cascada",
+      "destino": "anidado_en_classpath",
+      "n": 1,
+      "ejemplos": [
+        {
+          "f": "com/interactive/brasiliptv/ui/activity/VideoSplashListener.java",
+          "l": 6,
+          "sym": "OnErrorListener",
+          "loc": "VideoView",
+          "msg": "cannot find symbol",
+          "cod": "public class VideoSplashListener implements VideoView.OnCompletionListener, VideoView.OnEr"
+        }
+      ]
+    }
+  ],
+  "segundos": 0.8
+}

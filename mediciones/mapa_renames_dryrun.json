@@ -1,0 +1,1385 @@
+{
+ "plan": {
+  "j1::l": {
+   "nuevo": "l_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "xa::p1": {
+   "nuevo": "p1_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 8,
+   "decl_variable": false
+  },
+  "com.open.leanback.widget::l": {
+   "nuevo": "l__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 23,
+   "decl_variable": false
+  },
+  "androidx.recyclerview.widget::l": {
+   "nuevo": "l___",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 4,
+   "decl_variable": false
+  },
+  "androidx.core.view::x": {
+   "nuevo": "x_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 15,
+   "decl_variable": false
+  },
+  "l1::w": {
+   "nuevo": "w_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 12,
+   "decl_variable": false
+  },
+  "p1::w": {
+   "nuevo": "w__",
+   "anidados": [
+    "a",
+    "b",
+    "c"
+   ],
+   "choque": [
+    "a",
+    "b",
+    "c"
+   ],
+   "errores_sombra": 9,
+   "decl_variable": false
+  },
+  "androidx.fragment.app::l": {
+   "nuevo": "l____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 51,
+   "decl_variable": false
+  },
+  "androidx.fragment.app::t": {
+   "nuevo": "t_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 43,
+   "decl_variable": false
+  },
+  "androidx.fragment.app::d": {
+   "nuevo": "d_",
+   "anidados": [
+    "C0028d",
+    "a",
+    "b",
+    "c",
+    "e"
+   ],
+   "choque": [
+    "a",
+    "b",
+    "c"
+   ],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "androidx.activity::c": {
+   "nuevo": "c_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 4,
+   "decl_variable": false
+  },
+  "androidx.core.app::l": {
+   "nuevo": "l_____",
+   "anidados": [
+    "C0020b",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "choque": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "xa::l1": {
+   "nuevo": "l1_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 30,
+   "decl_variable": true
+  },
+  "androidx.appcompat.app::g": {
+   "nuevo": "g_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 76,
+   "decl_variable": false
+  },
+  "androidx.appcompat.app::l": {
+   "nuevo": "l______",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 8,
+   "decl_variable": false
+  },
+  "n::m": {
+   "nuevo": "m_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 72,
+   "decl_variable": true
+  },
+  "androidx.appcompat.widget::o": {
+   "nuevo": "o_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::l": {
+   "nuevo": "l_______",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 19,
+   "decl_variable": false
+  },
+  "androidx.core.view::p": {
+   "nuevo": "p_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 100,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::v": {
+   "nuevo": "v_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 6,
+   "decl_variable": false
+  },
+  "androidx.core.widget::x": {
+   "nuevo": "x__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::h": {
+   "nuevo": "h_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 9,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::f": {
+   "nuevo": "f_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 4,
+   "decl_variable": false
+  },
+  "com.alibaba.sdk.android.httpdns.b::c": {
+   "nuevo": "c__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 4,
+   "decl_variable": false
+  },
+  "l4::l": {
+   "nuevo": "l________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "com.google.android.gms.common.api.internal::l": {
+   "nuevo": "l_________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 7,
+   "decl_variable": true
+  },
+  "com.google.android.gms.internal.measurement::p4": {
+   "nuevo": "p4_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": true
+  },
+  "com.google.android.gms.internal.measurement::a5": {
+   "nuevo": "a5_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "com.google.android.gms.internal.measurement::b5": {
+   "nuevo": "b5_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 6,
+   "decl_variable": true
+  },
+  "com.google.android.gms.internal.measurement::s4": {
+   "nuevo": "s4_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 65,
+   "decl_variable": false
+  },
+  "com.google.android.gms.internal.measurement::m4": {
+   "nuevo": "m4_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 24,
+   "decl_variable": false
+  },
+  "com.google.android.gms.internal.measurement::l": {
+   "nuevo": "l__________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 14,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::p4": {
+   "nuevo": "p4__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 14,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::m4": {
+   "nuevo": "m4__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 143,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::l4": {
+   "nuevo": "l4_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 391,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::b5": {
+   "nuevo": "b5__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 219,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::l": {
+   "nuevo": "l___________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 111,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::i4": {
+   "nuevo": "i4_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::s4": {
+   "nuevo": "s4__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 24,
+   "decl_variable": false
+  },
+  "androidx.appcompat.view.menu::h": {
+   "nuevo": "h__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "f::f": {
+   "nuevo": "f__",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 3,
+   "decl_variable": true
+  },
+  "androidx.vectordrawable.graphics.drawable::l": {
+   "nuevo": "l____________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 8,
+   "decl_variable": false
+  },
+  "androidx.vectordrawable.graphics.drawable::o": {
+   "nuevo": "o__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 74,
+   "decl_variable": false
+  },
+  "androidx.core.app::i0": {
+   "nuevo": "i0_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "android.support.v4.media::b": {
+   "nuevo": "b_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "android.support.v4.media::l": {
+   "nuevo": "l_____________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "e2::l": {
+   "nuevo": "l______________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "androidx.fragment.app::c": {
+   "nuevo": "c___",
+   "anidados": [
+    "C0027c",
+    "a",
+    "b",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m"
+   ],
+   "choque": [
+    "a",
+    "b"
+   ],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "androidx.core.widget::v": {
+   "nuevo": "v__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 6,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::g": {
+   "nuevo": "g__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 14,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::z": {
+   "nuevo": "z_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 7,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::y": {
+   "nuevo": "y_",
+   "anidados": [
+    "a",
+    "b"
+   ],
+   "choque": [
+    "a",
+    "b"
+   ],
+   "errores_sombra": 6,
+   "decl_variable": false
+  },
+  "h0::l": {
+   "nuevo": "l_______________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 47,
+   "decl_variable": false
+  },
+  "p::o": {
+   "nuevo": "o___",
+   "anidados": [
+    "a",
+    "b",
+    "c"
+   ],
+   "choque": [
+    "a",
+    "b",
+    "c"
+   ],
+   "errores_sombra": 31,
+   "decl_variable": false
+  },
+  "p::l": {
+   "nuevo": "l________________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 4,
+   "decl_variable": false
+  },
+  "g::l": {
+   "nuevo": "l_________________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "xa::z0": {
+   "nuevo": "z0_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 4,
+   "decl_variable": false
+  },
+  "x::t": {
+   "nuevo": "t__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "x::x": {
+   "nuevo": "x___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": true
+  },
+  "androidx.fragment.app::w": {
+   "nuevo": "w___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "androidx.lifecycle::i": {
+   "nuevo": "i_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "androidx.fragment.app::h0": {
+   "nuevo": "h0_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "xa::s1": {
+   "nuevo": "s1_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "ha::n0": {
+   "nuevo": "n0_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 9,
+   "decl_variable": true
+  },
+  "ac::u2": {
+   "nuevo": "u2_",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 7,
+   "decl_variable": false
+  },
+  "ac::i2": {
+   "nuevo": "i2_",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 13,
+   "decl_variable": false
+  },
+  "ac::f1": {
+   "nuevo": "f1_",
+   "anidados": [
+    "a",
+    "b",
+    "c"
+   ],
+   "choque": [
+    "a",
+    "b"
+   ],
+   "errores_sombra": 2,
+   "decl_variable": true
+  },
+  "ac::z0": {
+   "nuevo": "z0__",
+   "anidados": [
+    "a"
+   ],
+   "choque": [],
+   "errores_sombra": 6,
+   "decl_variable": false
+  },
+  "ac::k2": {
+   "nuevo": "k2_",
+   "anidados": [
+    "a",
+    "b"
+   ],
+   "choque": [
+    "a",
+    "b"
+   ],
+   "errores_sombra": 18,
+   "decl_variable": true
+  },
+  "ac::h2": {
+   "nuevo": "h2_",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "a6::g": {
+   "nuevo": "g___",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "n::n": {
+   "nuevo": "n_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 6,
+   "decl_variable": true
+  },
+  "androidx.appcompat.widget::q": {
+   "nuevo": "q_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 18,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::p": {
+   "nuevo": "p__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "p1::v": {
+   "nuevo": "v___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "com.uc.crashsdk::g": {
+   "nuevo": "g____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "com.uc.crashsdk::f": {
+   "nuevo": "f___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 6,
+   "decl_variable": false
+  },
+  "anet.channel::e": {
+   "nuevo": "e_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "bb::g": {
+   "nuevo": "g_____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 4,
+   "decl_variable": true
+  },
+  "androidx.core.view::w": {
+   "nuevo": "w____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 11,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::w": {
+   "nuevo": "w_____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "n::g": {
+   "nuevo": "g______",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 3,
+   "decl_variable": true
+  },
+  "com.umeng.commonsdk.statistics.idtracking::f": {
+   "nuevo": "f____",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "kd::u2": {
+   "nuevo": "u2__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "com.alibaba.sdk.android.httpdns::d": {
+   "nuevo": "d__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 43,
+   "decl_variable": false
+  },
+  "com.alibaba.sdk.android.httpdns.probe::g": {
+   "nuevo": "g_______",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "com.alibaba.sdk.android.httpdns::b": {
+   "nuevo": "b__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 17,
+   "decl_variable": false
+  },
+  "com.alibaba.sdk.android.httpdns::m": {
+   "nuevo": "m__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "com.alibaba.sdk.android.httpdns::e": {
+   "nuevo": "e__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 11,
+   "decl_variable": false
+  },
+  "com.alibaba.sdk.android.httpdns::c": {
+   "nuevo": "c____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "com.google.android.gms.internal.measurement::l4": {
+   "nuevo": "l4__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 29,
+   "decl_variable": true
+  },
+  "com.google.android.gms.internal.measurement::a4": {
+   "nuevo": "a4_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::g3": {
+   "nuevo": "g3_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 26,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::o4": {
+   "nuevo": "o4_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 6,
+   "decl_variable": true
+  },
+  "com.google.android.gms.measurement.internal::g9": {
+   "nuevo": "g9_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 32,
+   "decl_variable": true
+  },
+  "com.google.android.gms.measurement.internal::a4": {
+   "nuevo": "a4__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "com.google.android.gms.measurement.internal::m": {
+   "nuevo": "m___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "com.google.android.material.textfield::e": {
+   "nuevo": "e___",
+   "anidados": [
+    "RunnableC0102a",
+    "ViewOnTouchListenerC0103e",
+    "a",
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "i"
+   ],
+   "choque": [
+    "a",
+    "b"
+   ],
+   "errores_sombra": 6,
+   "decl_variable": false
+  },
+  "com.google.android.material.internal::g": {
+   "nuevo": "g________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::e": {
+   "nuevo": "e____",
+   "anidados": [
+    "C0017e",
+    "a",
+    "b",
+    "c",
+    "d",
+    "f"
+   ],
+   "choque": [
+    "a",
+    "b"
+   ],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "com.google.android.material.datepicker::e": {
+   "nuevo": "e_____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "com.google.android.material.chip::e": {
+   "nuevo": "e______",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 8,
+   "decl_variable": false
+  },
+  "h6::f": {
+   "nuevo": "f_____",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "com.google.firebase.iid::l": {
+   "nuevo": "l__________________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "u1::g": {
+   "nuevo": "g_________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "u1::e": {
+   "nuevo": "e_______",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "l4::t": {
+   "nuevo": "t___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "ha::p0": {
+   "nuevo": "p0_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 10,
+   "decl_variable": true
+  },
+  "k2::g": {
+   "nuevo": "g__________",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 17,
+   "decl_variable": false
+  },
+  "p5::e": {
+   "nuevo": "e________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "androidx.core.app::t": {
+   "nuevo": "t____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "androidx.core.widget::t": {
+   "nuevo": "t_____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 3,
+   "decl_variable": false
+  },
+  "androidx.core.widget::w": {
+   "nuevo": "w______",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "androidx.core.view::r": {
+   "nuevo": "r_",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 14,
+   "decl_variable": false
+  },
+  "androidx.core.view::l": {
+   "nuevo": "l___________________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 5,
+   "decl_variable": false
+  },
+  "androidx.appcompat.app::e": {
+   "nuevo": "e_________",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": true
+  },
+  "androidx.appcompat.app::o": {
+   "nuevo": "o____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "androidx.appcompat.widget::l2": {
+   "nuevo": "l2_",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 4,
+   "decl_variable": false
+  },
+  "anet.channel::b": {
+   "nuevo": "b___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": false
+  },
+  "anet.channel::d": {
+   "nuevo": "d___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "anet.channel::c": {
+   "nuevo": "c_____",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 1,
+   "decl_variable": false
+  },
+  "h0::h0": {
+   "nuevo": "h0__",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 11,
+   "decl_variable": true
+  },
+  "p::p": {
+   "nuevo": "p___",
+   "anidados": [],
+   "choque": [],
+   "errores_sombra": 2,
+   "decl_variable": true
+  },
+  "g::h": {
+   "nuevo": "h___",
+   "anidados": [
+    "a"
+   ],
+   "choque": [
+    "a"
+   ],
+   "errores_sombra": 6,
+   "decl_variable": false
+  }
+ },
+ "pre_reparaciones": [
+  {
+   "ruta": "androidx/recyclerview/widget/RecyclerView.java",
+   "pkg": "androidx.recyclerview.widget",
+   "clase": "l",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'l'"
+  },
+  {
+   "ruta": "com/bumptech/glide/j.java",
+   "pkg": "p1",
+   "clase": "w",
+   "n": 3,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/fragment/app/i0.java",
+   "pkg": "androidx.fragment.app",
+   "clase": "d",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'd'"
+  },
+  {
+   "ruta": "androidx/fragment/app/o.java",
+   "pkg": "androidx.fragment.app",
+   "clase": "d",
+   "n": 3,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/core/app/y0.java",
+   "pkg": "androidx.core.app",
+   "clase": "l",
+   "n": 10,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/core/app/z0.java",
+   "pkg": "androidx.core.app",
+   "clase": "l",
+   "n": 2,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/SearchView.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "l",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'l'"
+  },
+  {
+   "ruta": "f/a.java",
+   "pkg": "f",
+   "clase": "f",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'f'"
+  },
+  {
+   "ruta": "f/b.java",
+   "pkg": "f",
+   "clase": "f",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'f'"
+  },
+  {
+   "ruta": "f/c.java",
+   "pkg": "f",
+   "clase": "f",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'f'"
+  },
+  {
+   "ruta": "f/d.java",
+   "pkg": "f",
+   "clase": "f",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'f'"
+  },
+  {
+   "ruta": "f/e.java",
+   "pkg": "f",
+   "clase": "f",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'f'"
+  },
+  {
+   "ruta": "f/f.java",
+   "pkg": "f",
+   "clase": "f",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'f'"
+  },
+  {
+   "ruta": "androidx/fragment/app/e.java",
+   "pkg": "androidx.fragment.app",
+   "clase": "c",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/fragment/app/i0.java",
+   "pkg": "androidx.fragment.app",
+   "clase": "c",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'c'"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/m.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "y",
+   "n": 2,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/a.java",
+   "pkg": "ac",
+   "clase": "i2",
+   "n": 6,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/g0.java",
+   "pkg": "ac",
+   "clase": "i2",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/h0.java",
+   "pkg": "ac",
+   "clase": "i2",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/i.java",
+   "pkg": "ac",
+   "clase": "i2",
+   "n": 2,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/k2.java",
+   "pkg": "ac",
+   "clase": "i2",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/m1.java",
+   "pkg": "ac",
+   "clase": "i2",
+   "n": 10,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/t.java",
+   "pkg": "ac",
+   "clase": "i2",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/x.java",
+   "pkg": "ac",
+   "clase": "i2",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "ac/f1.java",
+   "pkg": "ac",
+   "clase": "f1",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'f1'"
+  },
+  {
+   "ruta": "ac/k2.java",
+   "pkg": "ac",
+   "clase": "k2",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'k2'"
+  },
+  {
+   "ruta": "x8/p.java",
+   "pkg": "ac",
+   "clase": "k2",
+   "n": 3,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "za/f.java",
+   "pkg": "ac",
+   "clase": "k2",
+   "n": 2,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "a6/o.java",
+   "pkg": "a6",
+   "clase": "g",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "com/umeng/commonsdk/statistics/c.java",
+   "pkg": "com.umeng.commonsdk.statistics.idtracking",
+   "clase": "f",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "com/google/android/material/textfield/TextInputLayout.java",
+   "pkg": "com.google.android.material.textfield",
+   "clase": "e",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'e'"
+  },
+  {
+   "ruta": "com/google/android/material/textfield/a.java",
+   "pkg": "com.google.android.material.textfield",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "com/google/android/material/textfield/e.java",
+   "pkg": "com.google.android.material.textfield",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "com/google/android/material/textfield/i.java",
+   "pkg": "com.google.android.material.textfield",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/ActionBarOverlayLayout.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'e'"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/ActionMenuView.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'e'"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/AppCompatTextView.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 8,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/Toolbar.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'e'"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/b0.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/f.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/i.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/j.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/k.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 2,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/l.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 6,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/q.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 2,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/q2.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 2,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/r2.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 2,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/s.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/v.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "e",
+   "n": 1,
+   "nota": "saltados_con_error=0"
+  },
+  {
+   "ruta": "androidx/appcompat/widget/SearchView.java",
+   "pkg": "androidx.appcompat.widget",
+   "clase": "l2",
+   "n": 0,
+   "nota": "SALTADO: declara variable 'l2'"
+  }
+ ],
+ "strings": [
+  {
+   "ruta": "com/umeng/commonsdk/debug/SelfChecker.java",
+   "nuevo": "com.umeng.commonsdk.statistics.idtracking.f____"
+  },
+  {
+   "ruta": "com/umeng/commonsdk/debug/SelfChecker.java",
+   "nuevo": "com.umeng.commonsdk.statistics.idtracking.f____"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "log": "mediciones/loop_5.log",
+  "errores_contados": 15196,
+  "resumen_javac": 15196,
+  "familias": {
+    "cannot_find_symbol": 9621,
+    "ANIDADO_DEX": 6814,
+    "otro": 2682,
+    "tipos": 1143,
+    "override": 825,
+    "sobrecarga": 572,
+    "inferencia": 353,
+    "SOMBRA_sin_tapadora": 130
+  },
+  "sombra_clases_distintas": 0,
+  "sombra_por_clase": []
+}

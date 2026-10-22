@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Muchos streams públicos IPTV usan http:// sin TLS (61 de 150 en la lista de
+  Colombia). Se permite cleartext SOLO para reproducción de streaming; no es
+  una app con datos sensibles. Si conectas un backend propio con credenciales,
+  usa https y restringe este dominio.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

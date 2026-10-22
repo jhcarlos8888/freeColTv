@@ -1,0 +1,14 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Paleta basada en freecoltv_android_resources -->
+    <color name="primary">#FF8C5262</color>
+    <color name="primary_dark">#FF392036</color>
+    <color name="accent">#FF4B2A3F</color>
+    <color name="background">#FF321C32</color>
+    <color name="surface">#FF2A1522</color>
+    <color name="on_surface">#FFEAE6EB</color>
+    <color name="error">#FFE53935</color>
+    <color name="freecoltv_purple">#FF321C32</color>
+    <color name="freecoltv_rose">#FF8C5262</color>
+</resources>

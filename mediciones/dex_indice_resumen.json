@@ -1,0 +1,15 @@
+{
+  "clases": 16466,
+  "interfaces_declaradas": 8580,
+  "campos": 172639,
+  "metodos": 97952,
+  "dex": [
+    "classes.dex",
+    "classes2.dex",
+    "classes3.dex",
+    "classes4.dex",
+    "classes5.dex",
+    "classes6.dex"
+  ],
+  "segundos": 2.0
+}

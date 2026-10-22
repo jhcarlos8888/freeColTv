@@ -1,0 +1,65 @@
+// Init script: vuelca el classpath exacto que usa :app:compileDebugJavaWithJavac
+// a build/compile_classpath.txt, para poder iterar con javac crudo SIN Gradle
+// (mismo classpath => comparaciones de errores estrictamente comparables).
+//
+// Uso:  gradle -I tools/dump_classpath.gradle -q :app:dumpCp
+gradle.projectsEvaluated {
+    def app = gradle.rootProject.findProject(":app")
+    if (app == null) {
+        println "dump_classpath: no existe :app"
+        return
+    }
+    app.tasks.register("dumpCp") { t ->
+        t.doLast {
+            def jc = app.tasks.named("compileDebugJavaWithJavac").get()
+            def f = jc.classpath
+            def out = new File(app.layout.buildDirectory.getAsFile().get(), "compile_classpath.txt")
+            out.parentFile.mkdirs()
+            out.text = f.asPath
+            println "dumpCp: entradas=${f.files.size()} bytes=${out.length()}"
+            // ¿esta el R.jar de AGP en el classpath?
+            def rjar = f.files.findAll { it.name == "R.jar" }
+            println "dumpCp: R.jar en classpath = ${rjar.isEmpty() ? 'NO' : rjar}"
+            // flags exactos para replicarlos con javac crudo
+            def o = jc.options
+            println "dumpCp: compilerArgs = ${o.compilerArgs}"
+            println "dumpCp: sourcepath   = ${o.sourcepath?.files?.size() ?: 'null'} -> ${o.sourcepath?.files}"
+            println "dumpCp: bootClasspath= ${o.bootstrapClasspath?.files ?: 'null'}"
+            println "dumpCp: encoding     = ${o.encoding}"
+            try { println "dumpCp: source/target = ${jc.sourceCompatibility} / ${jc.targetCompatibility}" }
+            catch (Exception e) { println "dumpCp: source/target = n/d (${e.class.simpleName})" }
+            try { println "dumpCp: release      = ${o.release.orNull ?: 'null'}" }
+            catch (Exception e) { println "dumpCp: release      = n/d" }
+            try { println "dumpCp: destDir      = ${o.destinationDirectory.asFile.get()}" }
+            catch (Exception e) { println "dumpCp: destDir      = n/d" }
+            try { println "dumpCp: compilerArgs = ${jc.options.compilerArgs}" }
+            catch (Exception e) { println "dumpCp: compilerArgs = n/d" }
+            try { println "dumpCp: ALLARGS = ${jc.options.allCompilerArgs}" }
+            catch (Exception e) { println "dumpCp: ALLARGS = n/d (${e})" }
+            try { println "dumpCp: debug=${jc.options.debug} fork=${jc.options.fork} incremental=${jc.options.incremental}" }
+            catch (Exception e) { println "dumpCp: opts = n/d" }
+            try { println "dumpCp: javaCompiler(toolchain) = ${jc.javaCompiler.orNull ?: 'null'}" }
+            catch (Exception e) { println "dumpCp: toolchain = n/d" }
+            try { println "dumpCp: bootclasspath(files) = ${jc.options.bootstrapClasspath?.files ?: 'null'}" }
+            catch (Exception e) { println "dumpCp: bootclasspath = n/d" }
+            // Orden EXACTO de los ficheros que pasa javac (su orden afecta al
+            // numero de errores que reporta: recuperacion dependiente del orden)
+            try {
+                def orden = new File(app.layout.buildDirectory.getAsFile().get(), "sources_gradle_order.txt")
+                orden.text = jc.source.files.collect { '"' + it.absolutePath + '"' }.join("\n") + "\n"
+                println "dumpCp: orden de fuentes -> ${orden} (${jc.source.files.size()} ficheros)"
+            } catch (Exception e) { println "dumpCp: orden = n/d (${e})" }
+            // Imagen de sistema que AGP pasa como --system (plataforma efectiva)
+            try {
+                def img = jc.options.allCompilerArgs.find { it.toString().endsWith("jdkImage") }
+                if (img != null) {
+                    def fimg = new File(app.layout.buildDirectory.getAsFile().get(), "system_image.txt")
+                    fimg.text = img.toString()
+                    println "dumpCp: imagen de sistema -> ${img}"
+                } else { println "dumpCp: imagen de sistema -> (no encontrada en ALLARGS)" }
+            } catch (Exception e) { println "dumpCp: imagen de sistema = n/d (${e})" }
+            try { println "dumpCp: ficheros de entrada = ${jc.source.files.size()}" }
+            catch (Exception e) { println "dumpCp: ficheros = n/d" }
+        }
+    }
+}

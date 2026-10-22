@@ -1,0 +1,674 @@
+[
+ {
+  "f": "androidx/activity/ComponentActivity.java",
+  "linea": 35,
+  "col": 11,
+  "viejo": "c",
+  "nuevo": "c_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/activity/ComponentActivity.java",
+  "linea": 35,
+  "col": 27,
+  "viejo": "c",
+  "nuevo": "c_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/activity/ComponentActivity.java",
+  "linea": 161,
+  "col": 24,
+  "viejo": "c",
+  "nuevo": "c_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/activity/ComponentActivity.java",
+  "linea": 250,
+  "col": 26,
+  "viejo": "c",
+  "nuevo": "c_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 70,
+  "col": 26,
+  "viejo": "l",
+  "nuevo": "l______",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 70,
+  "col": 44,
+  "viejo": "l",
+  "nuevo": "l______",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 162,
+  "col": 5,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 367,
+  "col": 24,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 370,
+  "col": 17,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 394,
+  "col": 18,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 399,
+  "col": 26,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 404,
+  "col": 23,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 428,
+  "col": 26,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 434,
+  "col": 26,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 482,
+  "col": 21,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 488,
+  "col": 13,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 488,
+  "col": 30,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 489,
+  "col": 13,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 711,
+  "col": 35,
+  "viejo": "e",
+  "nuevo": "e_________",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 830,
+  "col": 13,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 830,
+  "col": 28,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 912,
+  "col": 13,
+  "viejo": "l",
+  "nuevo": "l______",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1284,
+  "col": 90,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1561,
+  "col": 17,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1561,
+  "col": 32,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1803,
+  "col": 12,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1803,
+  "col": 19,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1808,
+  "col": 9,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1815,
+  "col": 13,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1827,
+  "col": 5,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1827,
+  "col": 12,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1828,
+  "col": 9,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1832,
+  "col": 9,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1861,
+  "col": 36,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1887,
+  "col": 17,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1887,
+  "col": 32,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 1913,
+  "col": 9,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 2248,
+  "col": 32,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 2250,
+  "col": 19,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 2265,
+  "col": 9,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 2265,
+  "col": 24,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 2273,
+  "col": 13,
+  "viejo": "o",
+  "nuevo": "o____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 2298,
+  "col": 31,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/app/f.java",
+  "linea": 2356,
+  "col": 9,
+  "viejo": "g",
+  "nuevo": "g_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/Toolbar.java",
+  "linea": 196,
+  "col": 37,
+  "viejo": "g",
+  "nuevo": "g__",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/Toolbar.java",
+  "linea": 197,
+  "col": 19,
+  "viejo": "g",
+  "nuevo": "g__",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/Toolbar.java",
+  "linea": 244,
+  "col": 37,
+  "viejo": "g",
+  "nuevo": "g__",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/Toolbar.java",
+  "linea": 245,
+  "col": 19,
+  "viejo": "g",
+  "nuevo": "g__",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/Toolbar.java",
+  "linea": 575,
+  "col": 20,
+  "viejo": "g",
+  "nuevo": "g__",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/Toolbar.java",
+  "linea": 1793,
+  "col": 25,
+  "viejo": "e",
+  "nuevo": "e____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/Toolbar.java",
+  "linea": 1838,
+  "col": 17,
+  "viejo": "e",
+  "nuevo": "e____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/Toolbar.java",
+  "linea": 1889,
+  "col": 27,
+  "viejo": "e",
+  "nuevo": "e____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/b0.java",
+  "linea": 589,
+  "col": 31,
+  "viejo": "g",
+  "nuevo": "g__",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/b0.java",
+  "linea": 593,
+  "col": 35,
+  "viejo": "g",
+  "nuevo": "g__",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/appcompat/widget/c2.java",
+  "linea": 62,
+  "col": 24,
+  "viejo": "f",
+  "nuevo": "f_",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/core/view/q0.java",
+  "linea": 722,
+  "col": 13,
+  "viejo": "l",
+  "nuevo": "l___________________",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/core/view/q0.java",
+  "linea": 722,
+  "col": 25,
+  "viejo": "l",
+  "nuevo": "l___________________",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/core/view/q0.java",
+  "linea": 724,
+  "col": 28,
+  "viejo": "l",
+  "nuevo": "l___________________",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/core/view/q0.java",
+  "linea": 752,
+  "col": 13,
+  "viejo": "l",
+  "nuevo": "l___________________",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/core/view/q0.java",
+  "linea": 752,
+  "col": 25,
+  "viejo": "l",
+  "nuevo": "l___________________",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 203,
+  "col": 31,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 205,
+  "col": 47,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 522,
+  "col": 9,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 522,
+  "col": 24,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 563,
+  "col": 17,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 563,
+  "col": 33,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 567,
+  "col": 17,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 567,
+  "col": 33,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 620,
+  "col": 9,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/c___.java",
+  "linea": 849,
+  "col": 12,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/i0.java",
+  "linea": 211,
+  "col": 27,
+  "viejo": "c",
+  "nuevo": "c___",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/i0.java",
+  "linea": 319,
+  "col": 23,
+  "viejo": "c",
+  "nuevo": "c___",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/o.java",
+  "linea": 536,
+  "col": 21,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/o.java",
+  "linea": 640,
+  "col": 81,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/o.java",
+  "linea": 682,
+  "col": 20,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/o.java",
+  "linea": 781,
+  "col": 17,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "androidx/fragment/app/o.java",
+  "linea": 781,
+  "col": 32,
+  "viejo": "l",
+  "nuevo": "l____",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "com/google/android/material/textfield/TextInputLayout.java",
+  "linea": 448,
+  "col": 50,
+  "viejo": "e",
+  "nuevo": "e___",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "com/google/android/material/textfield/TextInputLayout.java",
+  "linea": 1713,
+  "col": 39,
+  "viejo": "e",
+  "nuevo": "e___",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "com/google/android/material/textfield/TextInputLayout.java",
+  "linea": 1785,
+  "col": 41,
+  "viejo": "e",
+  "nuevo": "e___",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "com/google/android/material/textfield/TextInputLayout.java",
+  "linea": 1917,
+  "col": 56,
+  "viejo": "e",
+  "nuevo": "e___",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "com/google/android/material/textfield/TextInputLayout.java",
+  "linea": 1966,
+  "col": 41,
+  "viejo": "e",
+  "nuevo": "e___",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "f/c.java",
+  "linea": 72,
+  "col": 33,
+  "viejo": "f",
+  "nuevo": "f__",
+  "motivo": "sombra-anidado"
+ },
+ {
+  "f": "f/c.java",
+  "linea": 524,
+  "col": 12,
+  "viejo": "f",
+  "nuevo": "f__",
+  "motivo": "sombra-anidado"
+ }
+]
