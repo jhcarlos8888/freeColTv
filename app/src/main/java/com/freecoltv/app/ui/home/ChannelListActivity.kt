@@ -58,14 +58,18 @@ class ChannelListActivity : AppCompatActivity() {
         }
     }
 
+    private var fullChannels = listOf<Channel>()
+
     private fun loadChannels() {
         binding.title.text = "Canales · ${DataGraph.activePlaylist.label}"
         setLoading(true)
         lifecycleScope.launch {
             try {
                 val channels = DataGraph.channelRepository.getChannels("")
+                fullChannels = channels
                 adapter.submit(channels)
                 binding.empty.visibility = if (channels.isEmpty()) View.VISIBLE else View.GONE
+                setupCategorySpinner(channels)
             } catch (e: Exception) {
                 Toast.makeText(this@ChannelListActivity, "Error de red. Mostrando datos locales.", Toast.LENGTH_LONG).show()
                 adapter.submit(emptyList())
@@ -86,6 +90,22 @@ class ChannelListActivity : AppCompatActivity() {
             putExtra(PlayerActivity.EXTRA_URL, url)
             putExtra(PlayerActivity.EXTRA_TITLE, channel.name)
         })
+    }
+
+    private fun setupCategorySpinner(channels: List<Channel>) {
+        val tags = listOf("Todos") + channels.mapNotNull { it.tags }.filter { it.isNotBlank() }.distinct().sortedBy { it.lowercase() }
+        val spinnerAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, tags)
+        binding.spinnerCategory.adapter = spinnerAdapter
+        binding.spinnerCategory.setSelection(0)
+        binding.spinnerCategory.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: android.widget.AdapterView<*>, view: View?, pos: Int, id: Long) {
+                val selected = tags.getOrNull(pos) ?: return
+                val filtered = if (selected == "Todos") fullChannels else fullChannels.filter { it.tags == selected }
+                adapter.submit(filtered)
+                binding.empty.visibility = if (filtered.isEmpty()) View.VISIBLE else View.GONE
+            }
+            override fun onNothingSelected(parent: android.widget.AdapterView<*>) {}
+        }
     }
 
     private fun setupTabs() {

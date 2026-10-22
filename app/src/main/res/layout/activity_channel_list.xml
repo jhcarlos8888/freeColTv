@@ -79,6 +79,21 @@
             android:textStyle="bold" />
     </LinearLayout>
 
+    <!-- Filtro por categoría / tag -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center_vertical">
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/accent"
+            android:minWidth="120dp" />
+    </LinearLayout>
+
     <!-- Lista de canales -->
     <FrameLayout
         android:layout_width="match_parent"

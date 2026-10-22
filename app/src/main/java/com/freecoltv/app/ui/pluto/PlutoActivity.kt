@@ -89,18 +89,28 @@ class PlutoActivity : AppCompatActivity() {
     }
 
     private fun openPlayer(item: Any) {
-        val (title, url) = when (item) {
-            is PlutoChannel -> item.name to runCatching { runBlocking { repo.playbackUrl(item) } }.getOrNull()
-            is PlutoMediaItem -> {
-                val urlBuilt = if (item.kind == PlutoMediaKind.EPISODE || item.kind == PlutoMediaKind.SERIES) {
-                    // Para episodios o series, se necesita una temporada; simplificamos con playbackUrl del item
-                    runCatching { runBlocking { repo.playbackUrl(item) } }.getOrNull()
-                } else {
-                    runCatching { runBlocking { repo.playbackUrl(item) } }.getOrNull()
+        val url = runCatching {
+            when (item) {
+                is PlutoChannel -> {
+                    kotlinx.coroutines.runBlocking { repo.playbackUrl(item) }
                 }
-                item.name to urlBuilt
+                is PlutoMediaItem -> {
+                    if (item.kind == PlutoMediaKind.SERIES) {
+                        val seasons = kotlinx.coroutines.runBlocking { repo.fetchSeriesSeasons(item) }
+                        val firstSeason = seasons.firstOrNull()
+                        val firstEpisode = firstSeason?.episodes?.firstOrNull()
+                        if (firstEpisode != null) kotlinx.coroutines.runBlocking { repo.playbackUrl(firstEpisode) } else null
+                    } else {
+                        kotlinx.coroutines.runBlocking { repo.playbackUrl(item) }
+                    }
+                }
+                else -> null
             }
-            else -> "Contenido" to null
+        }.getOrNull()
+        val title = when (item) {
+            is PlutoChannel -> item.name
+            is PlutoMediaItem -> item.name
+            else -> "Contenido"
         }
         if (url.isNullOrBlank()) {
             Toast.makeText(this, "Stream no disponible para $title", Toast.LENGTH_SHORT).show()
